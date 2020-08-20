@@ -9,7 +9,7 @@ class ExperimentParameters():
       'tiny_bridge':
           'tiny_bridge_2p',
       'kuhn_3p':
-          'kuhn(players=3)',
+          'kuhn_poker(players=3)',
   }
   NUM_ITERATIONS_MAP = {
       'leduc': 100,
