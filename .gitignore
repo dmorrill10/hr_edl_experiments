@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.eggs/
+*.egg-info/
+
+ # C extensions
+*.so
+
+ # Jupyter Notebook
+.ipynb_checkpoints
+
+ # virtualenv
+.venv
+venv/
+ENV/
+env/
+
+ # OSX specific
+.DS_Store
+
+ # Build products
+build/
+build.*/
+build
+
+ # External modules
+open_spiel/
+open_spiel/abseil-cpp/
+open_spiel/games/bridge/double_dummy_solver/
+pybind11/
+eigen/
+
+# Install artifacts
+get-pip.py
+
+# IDE
+.idea/
+compile_commands.json
+.clangd
+
+# Singularity images
+*.sif
+
+# Misc.
+saved_results/
+manifest.db
+*.out
+runs_remaining.gen.sh
+results/
