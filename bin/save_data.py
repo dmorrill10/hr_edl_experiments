@@ -49,7 +49,9 @@ def save_data(_):
       [list(data_entries(file)) for file in results_files if path.isfile(file)],
       [])
   np.save(flags.FLAGS.o, data)
-  print('Saved data to {}.npy'.format(flags.FLAGS.o))
+  output_file = flags.FLAGS.o if flags.FLAGS.o[
+      -4:] == '.npy' else flags.FLAGS.o + '.npy'
+  print(f'Saved data to {output_file}')
 
 
 if __name__ == '__main__':

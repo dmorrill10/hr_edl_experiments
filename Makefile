@@ -12,7 +12,7 @@ RNG_SSV_FILES :=$(foreach game,$(GAMES),\
 			$(foreach seed,$(SEEDS),data/$(game).null.$(mode).$(seed).gen.ssv)))
 SSV_FILES :=$(DET_SSV_FILES) $(RNG_SSV_FILES)
 
-default: $(SSV_FILES)
+default: $(results/mal_cfr_data.npy)
 	@true
 
 data:
@@ -29,6 +29,9 @@ data/%.gen.ssv: | data
 
 runs_remaining.gen.sh: bin/list_runs_remaining.sh Makefile
 	$< > $@
+
+results/mal_cfr_data.npy: $(SSV_FILES)
+	python3 bin/save_data.py -o $@
 
 print-%:
 	@echo $* = $($*)
