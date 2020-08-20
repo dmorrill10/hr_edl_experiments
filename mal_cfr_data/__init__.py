@@ -24,7 +24,10 @@ class ExperimentParameters():
     self.game_tag = args[0].replace('data/', '')
     self.sampler = args[1]
     self.mode = args[2]
-    self.seed = self.seed = args[3] if len(args) > 3 else None
+    try:
+      self.seed = int(args[3])
+    except:
+      self.seed = None
 
   def game(self):
     return self.GAME_MAP[self.game_tag]
