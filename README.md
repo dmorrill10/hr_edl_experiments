@@ -11,5 +11,5 @@ Experiments and plotting also requires Python3 and some associated libraries. Ru
 
 ## Managing Experiments and Analysis
 
-Data files have the following convention, `data/<game>.<sampler>.<setting, i.e., fixed or simultaneous>.gen`.
+Data files have the following convention, `data/<game>.<sampler>.<setting, i.e., fixed or simultaneous>.[random seed].gen`.
 To generate the desired file, simply run the corresponding make command. E.g., `make data/leduc.null.fixed.gen.txt`.

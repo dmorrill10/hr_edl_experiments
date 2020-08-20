@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='frcfr_data',
+    name='mal_cfr_data',
     version='0.0.1',
     license='',
     packages=find_packages(),
@@ -13,6 +13,4 @@ setup(
         'numpy',
         'pandas',
     ],
-    tests_require=['pytest', 'pytest-cov'],
-    setup_requires=['pytest-runner'],
 )

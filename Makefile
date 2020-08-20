@@ -1,18 +1,19 @@
 OPEN_SPIEL_PRIVATE =../open_spiel-private
 EXE_DIR :=$(OPEN_SPIEL_PRIVATE)/build/bin/ltbr
 
-GAMES :=tiny_bridge_2p leduc
-MODES :=fixed sim
-SAMPLERS :=null
-SSV_FILES :=$(foreach game,$(GAMES),\
-		$(foreach mode,$(MODES),\
-			$(foreach sampler,$(SAMPLERS),\
-				data/$(game).$(sampler).$(mode).gen.ssv)))
+GAMES :=tiny_bridge leduc kuhn_3p goofspiel random_goofspiel
+DET_MODES :=fixed sim
+DET_SSV_FILES :=$(foreach game,$(GAMES),\
+		$(foreach mode,$(DET_MODES),data/$(game).null.$(mode).gen.ssv))
+SEEDS :=$(shell seq 1 5)
+RNG_MODES :=shuffled
+RNG_SSV_FILES :=$(foreach game,$(GAMES),\
+		$(foreach mode,$(RNG_MODES),\
+			$(foreach seed,$(SEEDS),data/$(game).null.$(mode).$(seed).gen.ssv)))
+SSV_FILES :=$(DET_SSV_FILES) $(RNG_SSV_FILES)
 
 default: $(SSV_FILES)
 	@true
-
-SEEDS :=$(shell seq 1 5)
 
 data:
 	mkdir $@
@@ -23,10 +24,8 @@ results:
 $(EXE):
 	cd $(OPEN_SPIEL_PRIVATE) && $(MAKE)
 
-data/%.fixed.gen.ssv: | data
-	python3 bin/run_experiment.py --exe $(EXE_DIR)/run_fixed_ltbr -a $* > $@
-data/%.sim.gen.ssv: | data
-	python3 bin/run_experiment.py --exe $(EXE_DIR)/run_simultaneous_ltbr -a $* > $@
+data/%.gen.ssv: | data
+	python3 bin/run_experiment.py --exe_dir $(EXE_DIR) -a $* > $@
 
 runs_remaining.gen.sh: bin/list_runs_remaining.sh Makefile
 	$< > $@
