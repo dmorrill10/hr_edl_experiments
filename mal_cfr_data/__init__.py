@@ -12,11 +12,11 @@ class ExperimentParameters():
           'kuhn_poker(players=3)',
   }
   NUM_ITERATIONS_MAP = {
-      'leduc': 100,
+      'leduc': 500,
       'goofspiel': 100,
       'random_goofspiel': 100,
       'tiny_bridge': 100,
-      'kuhn_3p': 1000
+      'kuhn_3p': 10000
   }
 
   def __init__(self, args):
@@ -24,8 +24,7 @@ class ExperimentParameters():
     self.game_tag = args[0].replace('data/', '')
     self.sampler = args[1]
     self.mode = args[2]
-    if len(args) > 3:
-      self.seed = args[3]
+    self.seed = self.seed = args[3] if len(args) > 3 else None
 
   def game(self):
     return self.GAME_MAP[self.game_tag]
