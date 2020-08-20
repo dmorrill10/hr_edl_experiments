@@ -16,7 +16,7 @@ class ExperimentParameters():
       'goofspiel': 100,
       'random_goofspiel': 100,
       'tiny_bridge': 100,
-      'kuhn_3p': 100
+      'kuhn_3p': 1000
   }
 
   def __init__(self, args):
