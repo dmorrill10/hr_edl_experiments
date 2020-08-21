@@ -12,7 +12,7 @@ RNG_SSV_FILES :=$(foreach game,$(GAMES),\
 			$(foreach seed,$(SEEDS),data/$(game).null.$(mode).$(seed).gen.ssv)))
 SSV_FILES :=$(DET_SSV_FILES) $(RNG_SSV_FILES)
 
-default: $(results/mal_cfr_data.npy)
+default: results/mal_cfr_data.npy
 	@true
 
 data:
