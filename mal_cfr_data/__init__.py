@@ -45,4 +45,6 @@ class ExperimentParameters():
                            if self.mode == 'sim' else 'run_fixed_ltbr')
     if self.mode == 'shuffled':
       flags.append('--shuffle')
+      if self.seed is not None:
+        flags.append(f'--random_seed {self.seed}')
     return f'time {exe} ' + ' '.join(flags)
