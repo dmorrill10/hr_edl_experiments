@@ -1,15 +1,19 @@
 OPEN_SPIEL_PRIVATE =../open_spiel-private
 EXE_DIR :=$(OPEN_SPIEL_PRIVATE)/build/bin/ltbr
 
+ALG_GROUPS :=ltbr-cfr rla-cfr
 GAMES :=tiny_bridge leduc kuhn_3p goofspiel random_goofspiel
 DET_MODES :=fixed sim
-DET_SSV_FILES :=$(foreach game,$(GAMES),\
-		$(foreach mode,$(DET_MODES),data/$(game).null.$(mode).gen.ssv))
+DET_SSV_FILES :=$(foreach alg_group,$(ALG_GROUPS),\
+	$(foreach game,$(GAMES),\
+		$(foreach mode,$(DET_MODES),\
+			data/$(alg_group).$(game).null.$(mode).gen.ssv)))
 SEEDS :=$(shell seq 1 5)
 RNG_MODES :=shuffled
-RNG_SSV_FILES :=$(foreach game,$(GAMES),\
+RNG_SSV_FILES :=$(foreach alg_group,$(ALG_GROUPS),\
+	$(foreach game,$(GAMES),\
 		$(foreach mode,$(RNG_MODES),\
-			$(foreach seed,$(SEEDS),data/$(game).null.$(mode).$(seed).gen.ssv)))
+			$(foreach seed,$(SEEDS),data/$(alg_group).$(game).null.$(mode).$(seed).gen.ssv))))
 SSV_FILES :=$(DET_SSV_FILES) $(RNG_SSV_FILES)
 
 default: results/mal_cfr_data.npy
