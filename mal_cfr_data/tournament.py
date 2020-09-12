@@ -1,3 +1,13 @@
+import numpy as np
+import pandas as pd
+import mal_cfr_data.experiment_parameters as xp
+
+
+def load_df(file_name='results/mal_cfr_data.npy', **kwargs):
+  return pd.DataFrame.from_records(
+      np.load('results/mal_cfr_data.npy', allow_pickle=True, **kwargs))
+
+
 # Algorithm labels
 _alg_label_map = {
     'CFR+': r'$\\\text{CFR}^+$',
@@ -80,13 +90,13 @@ _game_label_map = {
     'leduc':
         r"Leduc hold'em($N={},T=\num{{{}}}$)",
     'goofspiel':
-        r"$\\\text{goofspiel}_{\\\text{DET}}(5,N={},T=\num{{{}}})$",
+        r"$\\\text{{goofspiel}}_{{\\\text{{DET}}}}(5,N={},T=\num{{{}}})$",
     'random_goofspiel':
-        r"$\\\text{goofspiel}_{\\\text{RNG}}(4,N={},T=\num{{{}}})$",
+        r"$\\\text{{goofspiel}}_{{\\\text{{RNG}}}}(4,N={},T=\num{{{}}})$",
 }
 _game_label_map = {
-    key: _fill_in_num_players_and_iterations(value)
-    for key, value in _game_label_map.items()
+    game_tag: _fill_in_num_players_and_iterations(game_string, game_tag)
+    for game_tag, game_string in _game_label_map.items()
 }
 
 
