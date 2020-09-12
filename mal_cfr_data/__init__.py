@@ -12,11 +12,11 @@ class ExperimentParameters():
           'kuhn_poker(players=3)',
   }
   NUM_ITERATIONS_MAP = {
-      'leduc': 500,
-      'goofspiel': 100,
-      'random_goofspiel': 100,
-      'tiny_bridge': 100,
-      'kuhn_3p': 10000
+      'leduc': 1000,
+      'goofspiel': 200,
+      'random_goofspiel': 200,
+      'tiny_bridge': 200,
+      'kuhn_3p': 10000,
   }
 
   def __init__(self, args):
