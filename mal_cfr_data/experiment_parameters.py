@@ -1,30 +1,32 @@
+GAME_MAP = {
+    'leduc':
+        'leduc_poker',
+    'goofspiel':
+        'goofspiel(imp_info=True,num_cards=5,points_order=descending)',
+    'random_goofspiel':
+        'goofspiel(imp_info=True,num_cards=4,points_order=random)',
+    'tiny_bridge':
+        'tiny_bridge_2p',
+    'kuhn_3p':
+        'kuhn_poker(players=3)',
+}
+NUM_ITERATIONS_MAP = {
+    'leduc': 1000,
+    'goofspiel': 200,
+    'random_goofspiel': 200,
+    'tiny_bridge': 200,
+    'kuhn_3p': 10000,
+}
+NUM_PLAYERS_MAP = {
+    'leduc': 2,
+    'goofspiel': 2,
+    'random_goofspiel': 2,
+    'tiny_bridge': 2,
+    'kuhn_3p': 3,
+}
+
+
 class ExperimentParameters():
-  GAME_MAP = {
-      'leduc':
-          'leduc_poker',
-      'goofspiel':
-          'goofspiel(imp_info=True,num_cards=5,points_order=descending)',
-      'random_goofspiel':
-          'goofspiel(imp_info=True,num_cards=4,points_order=random)',
-      'tiny_bridge':
-          'tiny_bridge_2p',
-      'kuhn_3p':
-          'kuhn_poker(players=3)',
-  }
-  NUM_ITERATIONS_MAP = {
-      'leduc': 1000,
-      'goofspiel': 200,
-      'random_goofspiel': 200,
-      'tiny_bridge': 200,
-      'kuhn_3p': 10000,
-  }
-  NUM_PLAYERS_MAP = {
-      'leduc': 2,
-      'goofspiel': 2,
-      'random_goofspiel': 2,
-      'tiny_bridge': 2,
-      'kuhn_3p': 3,
-  }
 
   def __init__(self, args):
     args = args.split('.')
@@ -58,10 +60,10 @@ class ExperimentParameters():
     return 1 if any([tag == 'non_cfr' for tag in alg_group_tags[1:]]) else 0
 
   def game(self):
-    return self.GAME_MAP[self.game_tag]
+    return GAME_MAP[self.game_tag]
 
   def num_iterations(self):
-    return self.NUM_ITERATIONS_MAP[self.game_tag]
+    return NUM_ITERATIONS_MAP[self.game_tag]
 
   def command(self, exe_dir):
     flags = [
