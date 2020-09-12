@@ -18,6 +18,13 @@ class ExperimentParameters():
       'tiny_bridge': 200,
       'kuhn_3p': 10000,
   }
+  NUM_PLAYERS_MAP = {
+      'leduc': 2,
+      'goofspiel': 2,
+      'random_goofspiel': 2,
+      'tiny_bridge': 2,
+      'kuhn_3p': 3,
+  }
 
   def __init__(self, args):
     args = args.split('.')
