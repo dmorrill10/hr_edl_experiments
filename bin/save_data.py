@@ -6,7 +6,7 @@ from os import path
 import numpy as np
 from absl import app, flags
 
-import mal_cfr_data
+import mal_cfr_data.experiment_parameters as xp
 
 flags.DEFINE_list(
     "i", [], "The data files to compile together into a numpy data file. "
@@ -16,7 +16,7 @@ flags.mark_flag_as_required('o')
 
 
 def data_entries(file_name):
-  params = mal_cfr_data.ExperimentParameters(file_name)
+  params = xp.ExperimentParameters(file_name)
   col_labels = None
   with open(file_name) as file:
     for line in file:
