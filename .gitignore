@@ -39,6 +39,7 @@ get-pip.py
 .idea/
 compile_commands.json
 .clangd
+.vscode/
 
 # Singularity images
 *.sif
