@@ -72,7 +72,7 @@ def cor_gap_data_entries(file_name):
 def save_data(_):
   if flags.FLAGS.x == 'cor_gap':
     pattern = 'data/cor_gap.*.dat'
-    data_processor = tournament_data_entries
+    data_processor = cor_gap_data_entries
   else:
     pattern = 'data/*.ssv'
     data_processor = tournament_data_entries
