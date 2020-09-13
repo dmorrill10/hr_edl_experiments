@@ -46,7 +46,7 @@ def tournament_data_entries(file_name):
 
 def cor_gap_data_entries(file_name):
   '''
-  cor_gap.<game>.<param>.dat
+  cor_gap.<game>.<param>.<training_regime>.dat
   Contents:
   CFRTest <iterations> <AFCCE gap> <AFCE gap> <EFCCE gap> <EFCE gap> <exp value for first player> <exp value for second player>
   '''
@@ -59,13 +59,14 @@ def cor_gap_data_entries(file_name):
       yield {
           'game_tag': file_comp[1],
           'param': file_comp[2],
-          'num_iterations': split_line[1],
-          'afcce_gap': split_line[2],
-          'afce_gap': split_line[3],
-          'efcce_gap': split_line[4],
-          'efce_gap': split_line[5],
-          'value_1': split_line[6],
-          'value_2': split_line[7]
+          'training_regime': file_comp[3],
+          'num_iterations': int(split_line[1]),
+          'afcce_gap': float(split_line[2]),
+          'afce_gap': float(split_line[3]),
+          'efcce_gap': float(split_line[4]),
+          'efce_gap': float(split_line[5]),
+          'value_1': float(split_line[6]),
+          'value_2': float(split_line[7]),
       }
 
 
