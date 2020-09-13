@@ -16,7 +16,7 @@ RNG_SSV_FILES :=$(foreach alg_group,$(ALG_GROUPS),\
 			$(foreach seed,$(SEEDS),data/$(alg_group).$(game).null.$(mode).$(seed).gen.ssv))))
 SSV_FILES :=$(DET_SSV_FILES) $(RNG_SSV_FILES)
 
-default: results/mal_cfr_data.npy
+default: results/mal_cfr_data.npy results/cor_gap_data.npy
 	@true
 
 data:
@@ -35,7 +35,10 @@ runs_remaining.gen.sh: bin/list_runs_remaining.sh Makefile
 	$< > $@
 
 results/mal_cfr_data.npy: $(SSV_FILES)
-	python3 bin/save_data.py -o $@
+	python3 bin/save_data.py -x rla -o $@
+
+results/cor_gap_data.npy: $(wildcard data/cor_gap.*.dat)
+	python3 bin/save_data.py -x cor_gap -o $@
 
 print-%:
 	@echo $* = $($*)

@@ -14,8 +14,13 @@ flags.DEFINE_list(
 flags.DEFINE_string("o", None, "The name of the output numpy data file.")
 flags.mark_flag_as_required('o')
 
+EXPERIMENT_TYPES = set(['ltbr', 'rla', 'cor_gap'])
+flags.DEFINE_string(
+    "x", None, f"The type of experiment data file, one of {EXPERIMENT_TYPES}.")
+flags.mark_flag_as_required('x')
 
-def data_entries(file_name):
+
+def tournament_data_entries(file_name):
   params = xp.ExperimentParameters(file_name)
   col_labels = None
   with open(file_name) as file:
@@ -39,15 +44,47 @@ def data_entries(file_name):
         }
 
 
+def cor_gap_data_entries(file_name):
+  '''
+  cor_gap.<game>.<param>.dat
+  Contents:
+  CFRTest <iterations> <AFCCE gap> <AFCE gap> <EFCCE gap> <EFCE gap> <exp value for first player> <exp value for second player>
+  '''
+  file_comp = file_name.split('.')
+  with open(file_name) as file:
+    for line in file:
+      if line[0] == '#':
+        continue
+      split_line = [s.strip() for s in line.strip().split(' ')]
+      yield {
+          'game_tag': file_comp[1],
+          'param': file_comp[2],
+          'num_iterations': split_line[1],
+          'afcce_gap': split_line[2],
+          'afce_gap': split_line[3],
+          'efcce_gap': split_line[4],
+          'efce_gap': split_line[5],
+          'value_1': split_line[6],
+          'value_2': split_line[7]
+      }
+
+
 def save_data(_):
+  if flags.FLAGS.x == 'cor_gap':
+    pattern = 'data/cor_gap.*.dat'
+    data_processor = tournament_data_entries
+  else:
+    pattern = 'data/*.ssv'
+    data_processor = tournament_data_entries
+
   if len(flags.FLAGS.i) < 1:
-    results_files = glob.glob('data/*')
+    results_files = glob.glob(pattern)
   else:
     results_files = flags.FLAGS.i
 
-  data = sum(
-      [list(data_entries(file)) for file in results_files if path.isfile(file)],
-      [])
+  data = sum([
+      list(data_processor(file)) for file in results_files if path.isfile(file)
+  ], [])
   np.save(flags.FLAGS.o, data)
   output_file = flags.FLAGS.o if flags.FLAGS.o[
       -4:] == '.npy' else flags.FLAGS.o + '.npy'
