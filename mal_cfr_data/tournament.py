@@ -23,8 +23,6 @@ _alg_label_map = {
     'CFR+_EX+IN': r'$\\\text{CFR}_{\text{EX} + \text{IN}}^+$',
     'BPS-CFR': r'$\\\text{CFR}_{\text{BPS}}$',
     'BPS-CFR+': r'$\\\text{CFR}_{\text{BPS}}^+$',
-    'FP': 'FP',
-    'IP': 'IP',
 }
 
 
@@ -57,7 +55,7 @@ _alg_order_map = {
     'BPS-CFR': 14,
     'BPS-CFR+': 15,
     'FP': 20,
-    'IP': 21,
+    'PI': 21,
     'avg': 22,
     'BR': 23,
 }
