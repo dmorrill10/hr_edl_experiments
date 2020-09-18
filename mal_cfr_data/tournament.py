@@ -23,6 +23,8 @@ _alg_label_map = {
     'CFR+_EX+IN': r'$\\\text{CFR}_{\text{EX} + \text{IN}}^+$',
     'BPS-CFR': r'$\\\text{CFR}_{\text{BPS}}$',
     'BPS-CFR+': r'$\\\text{CFR}_{\text{BPS}}^+$',
+    'FP': 'FP',
+    'IP': 'IP',
 }
 
 
@@ -54,8 +56,10 @@ _alg_order_map = {
     'CFR+_EX+IN': 11,
     'BPS-CFR': 14,
     'BPS-CFR+': 15,
-    'avg': 20,
-    'BR': 21
+    'FP': 20,
+    'IP': 21,
+    'avg': 22,
+    'BR': 23,
 }
 
 
@@ -84,6 +88,8 @@ _game_label_map = {
         r'tiny bridge($N={},T=\num{{{}}}$)',
     'kuhn_3p':
         r'Kuhn poker($N={},T=\num{{{}}}$)',
+    'kuhn_4p':
+        r'Kuhn poker($N={},T=\num{{{}}}$)',
     'leduc':
         r"Leduc hold'em($N={},T=\num{{{}}}$)",
     'goofspiel':
@@ -106,11 +112,12 @@ def game_label(tag):
 # Game order and sorting
 _game_order_map = {
     'leduc': 0,
-    'goofspiel': 1,
-    'random_goofspiel': 2,
-    'tiny_bridge': 3,
-    'kuhn_3p': 4,
-    'avg': 5,
+    'kuhn_3p': 1,
+    'kuhn_4p': 2,
+    'goofspiel': 3,
+    'random_goofspiel': 4,
+    'tiny_bridge': 5,
+    'avg': 6,
 }
 
 

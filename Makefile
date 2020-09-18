@@ -9,7 +9,7 @@ DET_SSV_FILES :=$(foreach alg_group,$(ALG_GROUPS),\
 		$(foreach mode,$(DET_MODES),\
 			data/$(alg_group).$(game).null.$(mode).gen.ssv)))
 SEEDS :=$(shell seq 1 5)
-RNG_MODES :=shuffled
+RNG_MODES :=#shuffled
 RNG_SSV_FILES :=$(foreach alg_group,$(ALG_GROUPS),\
 	$(foreach game,$(GAMES),\
 		$(foreach mode,$(RNG_MODES),\

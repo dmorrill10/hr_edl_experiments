@@ -9,13 +9,16 @@ GAME_MAP = {
         'tiny_bridge_2p',
     'kuhn_3p':
         'kuhn_poker(players=3)',
+    'kuhn_4p':
+        'kuhn_poker(players=4)',
 }
 NUM_ITERATIONS_MAP = {
     'leduc': 1000,
-    'goofspiel': 200,
-    'random_goofspiel': 200,
-    'tiny_bridge': 200,
+    'goofspiel': 500,
+    'random_goofspiel': 500,
+    'tiny_bridge': 500,
     'kuhn_3p': 10000,
+    'kuhn_4p': 1000,
 }
 NUM_PLAYERS_MAP = {
     'leduc': 2,
@@ -23,6 +26,7 @@ NUM_PLAYERS_MAP = {
     'random_goofspiel': 2,
     'tiny_bridge': 2,
     'kuhn_3p': 3,
+    'kuhn_4p': 4
 }
 
 
@@ -56,8 +60,7 @@ class ExperimentParameters():
     return v if any([tag == 'cfr_plus' for tag in alg_group_tags[1:]]) else 0
 
   def non_cfr_group(self):
-    alg_group_tags = self.alg_group.split('-')
-    return 1 if any([tag == 'non_cfr' for tag in alg_group_tags[1:]]) else 0
+    return 1
 
   def game(self):
     return GAME_MAP[self.game_tag]
