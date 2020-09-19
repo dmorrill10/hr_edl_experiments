@@ -11,6 +11,8 @@ GAME_MAP = {
         'kuhn_poker(players=3)',
     'kuhn_4p':
         'kuhn_poker(players=4)',
+    'tiny_hanabi':
+        'tiny_hanabi',
 }
 NUM_ITERATIONS_MAP = {
     'leduc': 1000,
@@ -19,6 +21,7 @@ NUM_ITERATIONS_MAP = {
     'tiny_bridge': 500,
     'kuhn_3p': 10000,
     'kuhn_4p': 1000,
+    'tiny_hanabi': 10000,
 }
 NUM_PLAYERS_MAP = {
     'leduc': 2,
@@ -26,7 +29,8 @@ NUM_PLAYERS_MAP = {
     'random_goofspiel': 2,
     'tiny_bridge': 2,
     'kuhn_3p': 3,
-    'kuhn_4p': 4
+    'kuhn_4p': 4,
+    'tiny_hanabi': 2,
 }
 
 

@@ -23,6 +23,7 @@ _alg_label_map = {
     'CFR+_EX+IN': r'$\\\text{CFR}_{\text{EX} + \text{IN}}^+$',
     'BPS-CFR': r'$\\\text{CFR}_{\text{BPS}}$',
     'BPS-CFR+': r'$\\\text{CFR}_{\text{BPS}}^+$',
+    'greed_punisher': 'GP'
 }
 
 
@@ -56,8 +57,9 @@ _alg_order_map = {
     'BPS-CFR+': 15,
     'FP': 20,
     'PI': 21,
-    'avg': 22,
-    'BR': 23,
+    'greed_punisher': 22,
+    'avg': 23,
+    'BR': 24,
 }
 
 
@@ -94,6 +96,8 @@ _game_label_map = {
         r"$\\\text{{goofspiel}}_{{\\\text{{DET}}}}(5,N={},T=\num{{{}}})$",
     'random_goofspiel':
         r"$\\\text{{goofspiel}}_{{\\\text{{RNG}}}}(4,N={},T=\num{{{}}})$",
+    'tiny_hanabi':
+        r"tiny Hanabi(N={})"
 }
 _game_label_map = {
     game_tag: _fill_in_num_players_and_iterations(game_string, game_tag)
@@ -115,7 +119,8 @@ _game_order_map = {
     'goofspiel': 3,
     'random_goofspiel': 4,
     'tiny_bridge': 5,
-    'avg': 6,
+    'tiny_hanabi': 6,
+    'avg': 7,
 }
 
 
