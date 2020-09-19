@@ -97,7 +97,7 @@ _game_label_map = {
     'random_goofspiel':
         r"$\\\text{{goofspiel}}_{{\\\text{{RNG}}}}(4,N={},T=\num{{{}}})$",
     'tiny_hanabi':
-        r"tiny Hanabi(N={})"
+        r"tiny Hanabi($N={},T=\num{{{}}}$)"
 }
 _game_label_map = {
     game_tag: _fill_in_num_players_and_iterations(game_string, game_tag)
