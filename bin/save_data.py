@@ -27,10 +27,15 @@ def tournament_data_entries(file_name):
     for line in file:
       if line[0] == '#':
         continue
-      split_line = line.strip().split('  ')
+      line = line.strip()
       if col_labels is None:
+        split_line = line.split('  ')
         col_labels = split_line
         continue
+      if line[:4] == 't = ':
+        t = int(line[4:])
+        continue
+      split_line = line.split('  ')
       row_alg = split_line[0]
       for i, v in enumerate(split_line[1:]):
         yield {
@@ -40,7 +45,8 @@ def tournament_data_entries(file_name):
             'mode': params.mode,
             'row_alg': row_alg,
             'col_alg': col_labels[i + 1],
-            'value': float(v)
+            'value': float(v),
+            't': t
         }
 
 

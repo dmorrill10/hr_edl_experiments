@@ -223,65 +223,91 @@ class Data():
   def games(self):
     return sorted(self.data.game_tag.unique(), key=game_sort_key)
 
-  def det_table(self, game, mode):
+  def det_table(self, game, mode, t):
     assert mode == 'fixed' or mode == 'sim'
-    df = self.data.query(f'game_tag == "{game}" & mode == "{mode}"')
+    df = self.data.query(f'game_tag == "{game}" & mode == "{mode}" & t == {t}')
     return df.pivot(index='row_alg', columns='col_alg', values='value')
 
-  def fixed_table(self, game):
-    return self.det_table(game, 'fixed')
+  def time_avg_det_table(self, game, mode, num_iterations):
+    assert mode == 'fixed' or mode == 'sim'
+    df = self.data.query(
+        f'game_tag == "{game}" & mode == "{mode}" & t < {num_iterations}')
+    return df.pivot(index='t', columns=['row_alg', 'col_alg'],
+                    values='value').mean().unstack()
 
-  def sim_table(self, game):
-    return self.det_table(game, 'sim')
+  def fixed_table(self, game, t):
+    return self.det_table(game, 'fixed', t)
+
+  def time_avg_fixed_table(self, game, num_iterations):
+    return self.time_avg_det_table(game, 'fixed', num_iterations)
+
+  def sim_table(self, game, t):
+    return self.det_table(game, 'sim', t)
+
+  def time_avg_sim_table(self, game, num_iterations):
+    return self.time_avg_det_table(game, 'sim', num_iterations)
 
   def all_seeds(self):
     return self.data.seed.unique()
 
-  def shuffled_table(self, game, seed):
+  def shuffled_table(self, game, seed, t):
     df = self.data.query(
-        f'game_tag == "{game}" & mode == "shuffled" & seed == "{seed}"')
+        f'game_tag == "{game}" & mode == "shuffled" & seed == "{seed}" & t == {t}'
+    )
     return df.pivot(index='row_alg', columns='col_alg', values='value')
 
-  def each_shuffled_table(self, game):
+  def each_shuffled_table(self, game, t):
     for seed in self.all_seeds():
-      yield self.shuffled_table(game, seed)
+      yield self.shuffled_table(game, seed, t)
 
-  def shuffled_table_by_seed(self, game):
-    df = self.data.query(f'game_tag == "{game}" & mode == "shuffled"')
+  def shuffled_table_by_seed(self, game, t):
+    df = self.data.query(
+        f'game_tag == "{game}" & mode == "shuffled" & t == {t}')
     return df.pivot(index='seed',
                     columns=['row_alg', 'col_alg'],
                     values='value')
 
-  def avg_shuffled_table(self, game):
-    return self.shuffled_table_by_seed(game).mean().unstack()
+  def avg_shuffled_table(self, game, t):
+    return self.shuffled_table_by_seed(game, t).mean().unstack()
 
-  def max_abs_diff(self, game):
-    df = self.shuffled_table_by_seed(game)
+  def max_abs_diff(self, game, t):
+    df = self.shuffled_table_by_seed(game, t)
     return df.max() - df.min()
 
-  def max_abs_diff_from_mean(self, game):
-    df = self.shuffled_table_by_seed(game)
+  def max_abs_diff_from_mean(self, game, t):
+    df = self.shuffled_table_by_seed(game, t)
     df_mean = df.mean()
     return np.maximum(df.max() - df_mean, df_mean - df.min())
 
-  def det_avg_table(self, mode):
+  def det_avg_table(self, mode, t):
     assert mode == 'fixed' or mode == 'sim'
-    return self.data.query(f'mode == "{mode}"').pivot(
-        index='col_alg', columns=['row_alg',
-                                  'game_tag'], values='value').mean().unstack()
+    return self.data.query(f'mode == "{mode}" & t == {t}').pivot(
+        index='col_alg', columns=['game_tag',
+                                  'row_alg'], values='value').mean().unstack()
 
-  def fixed_avg_table(self):
-    return self.det_avg_table('fixed')
-
-  def sim_avg_table(self):
-    return self.det_avg_table('sim')
-
-  def shuffled_avg_table(self):
-    df_shuffled = self.data.query('mode == "shuffled"').pivot(
-        index='seed',
-        columns=['row_alg', 'game_tag', 'col_alg'],
+  def time_avg_det_avg_table(self, mode, num_iterations):
+    assert mode == 'fixed' or mode == 'sim'
+    return self.data.query(f'mode == "{mode}" & t < {num_iterations}').pivot(
+        index=['t', 'col_alg'], columns=['game_tag', 'row_alg'],
         values='value').mean().unstack()
-    return df_shuffled.transpose().mean().unstack()
+
+  def fixed_avg_table(self, t):
+    return self.det_avg_table('fixed', t)
+
+  def time_avg_fixed_avg_table(self, num_iterations):
+    return self.time_avg_det_avg_table('fixed', num_iterations)
+
+  def sim_avg_table(self, t):
+    return self.det_avg_table('sim', t)
+
+  def time_avg_sim_avg_table(self, num_iterations):
+    return self.time_avg_det_avg_table('sim', num_iterations)
+
+  def shuffled_avg_table(self, t):
+    return self.data.query(f'mode == "shuffled" & t == {t}').pivot(
+        index=['seed', 'game_tag'],
+        columns=['row_alg', 'col_alg'],
+        values='value').mean().unstack()
 
 
 # Plotting

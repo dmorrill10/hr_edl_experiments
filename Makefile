@@ -2,7 +2,7 @@ OPEN_SPIEL_PRIVATE =../open_spiel-private
 EXE_DIR :=$(OPEN_SPIEL_PRIVATE)/build/bin/ltbr
 
 ALG_GROUPS :=rla-cfr
-GAMES :=tiny_bridge leduc kuhn_3p tiny_hanabi # kuhn_4p goofspiel random_goofspiel
+GAMES :=tiny_bridge leduc kuhn_3p tiny_hanabi kuhn_4p goofspiel random_goofspiel
 DET_MODES :=fixed sim
 DET_SSV_FILES :=$(foreach alg_group,$(ALG_GROUPS),\
 	$(foreach game,$(GAMES),\
