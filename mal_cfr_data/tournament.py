@@ -15,8 +15,10 @@ _alg_label_map = {
     'CFR+_IN': r'$\\\text{CFR}^+_{\text{IN}}$',
     'A-CFR_IN': r'$\\\text{CFR}_{\text{A}, \text{IN}}$',
     'A-CFR+_IN': r'$\\\text{CFR}^+_{\text{A}, \text{IN}}$',
-    'IPS-CFR': r'$\\\text{CFR}_{\text{IPS}}$',
-    'IPS-CFR+': r'$\\\text{CFR}_{\text{IPS}}^+$',
+    'CSPS-CFR': r'$\\\text{CFR}_{\text{CSPS}}$',
+    'CSPS-CFR+': r'$\\\text{CFR}_{\text{CSPS}}^+$',
+    'CFPS-CFR': r'$\\\text{CFR}_{\text{CFPS}}$',
+    'CFPS-CFR+': r'$\\\text{CFR}_{\text{CFPS}}^+$',
     'TIPS-CFR': r'$\\\text{CFR}_{\text{TIPS}}$',
     'TIPS-CFR+': r'$\\\text{CFR}_{\text{TIPS}}^+$',
     'CFR_EX+IN': r'$\\\text{CFR}_{\text{EX} + \text{IN}}$',
@@ -47,19 +49,21 @@ _alg_order_map = {
     'CFR+_IN': 9,
     'A-CFR_IN': 12,
     'A-CFR+_IN': 13,
-    'IPS-CFR': 16,
-    'IPS-CFR+': 17,
-    'TIPS-CFR': 18,
-    'TIPS-CFR+': 19,
+    'CSPS-CFR': 18,
+    'CSPS-CFR+': 19,
+    'CFPS-CFR': 16,
+    'CFPS-CFR+': 17,
+    'TIPS-CFR': 20,
+    'TIPS-CFR+': 21,
     'CFR_EX+IN': 10,
     'CFR+_EX+IN': 11,
     'BPS-CFR': 14,
     'BPS-CFR+': 15,
-    'FP': 20,
-    'PI': 21,
-    'greed_punisher': 22,
-    'avg': 23,
-    'BR': 24,
+    'FP': 22,
+    'PI': 23,
+    'greed_punisher': 24,
+    'avg': 25,
+    'BR': 26,
 }
 
 
@@ -84,20 +88,13 @@ def _fill_in_num_players_and_iterations(game_string, game_tag):
 
 
 _game_label_map = {
-    'tiny_bridge':
-        r'tiny bridge($N={},T=\num{{{}}}$)',
-    'kuhn_3p':
-        r'Kuhn poker($N={},T=\num{{{}}}$)',
-    'kuhn_4p':
-        r'Kuhn poker($N={},T=\num{{{}}}$)',
-    'leduc':
-        r"Leduc hold'em($N={},T=\num{{{}}}$)",
-    'goofspiel':
-        r"$\\\text{{goofspiel}}_{{\\\text{{DET}}}}(5,N={},T=\num{{{}}})$",
-    'random_goofspiel':
-        r"$\\\text{{goofspiel}}_{{\\\text{{RNG}}}}(4,N={},T=\num{{{}}})$",
-    'tiny_hanabi':
-        r"tiny Hanabi($N={},T=\num{{{}}}$)"
+    'tiny_bridge': r'tiny bridge',
+    'kuhn_3p': r'Kuhn poker',
+    'kuhn_4p': r'Kuhn poker',
+    'leduc': r"Leduc hold'em",
+    'goofspiel': r"$\\\text{{goofspiel}}_{{\\\text{{DET}}}}$",
+    'random_goofspiel': r"$\\\text{{goofspiel}}_{{\\\text{{RNG}}}}$",
+    'tiny_hanabi': r"tiny Hanabi"
 }
 _game_label_map = {
     game_tag: _fill_in_num_players_and_iterations(game_string, game_tag)
@@ -105,9 +102,16 @@ _game_label_map = {
 }
 
 
-def game_label(tag):
+def game_label(tag, t=None):
   if tag in _game_label_map:
-    return _game_label_map[tag]
+    params_string = r'N=\num{{{}}}'.format(xp.NUM_PLAYERS_MAP[tag])
+    if t is not None:
+      params_string = r'{},T=\num{{{}}}'.format(params_string, t)
+    if tag in xp.EXTRA_GAME_PARAMS_MAP:
+      return '{}$({})$'.format(
+          _game_label_map[tag],
+          ','.join(xp.EXTRA_GAME_PARAMS_MAP[tag] + (params_string,)))
+    return '{}$({})$'.format(_game_label_map[tag], params_string)
   return tag
 
 

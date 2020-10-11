@@ -15,13 +15,13 @@ GAME_MAP = {
         'tiny_hanabi',
 }
 NUM_ITERATIONS_MAP = {
-    'leduc': 100,
-    'goofspiel': 100,
-    'random_goofspiel': 100,
-    'tiny_bridge': 100,
-    'kuhn_3p': 100,
-    'kuhn_4p': 100,
-    'tiny_hanabi': 100,
+    'leduc': 200,
+    'goofspiel': 200,
+    'random_goofspiel': 200,
+    'tiny_bridge': 200,
+    'kuhn_3p': 200,
+    'kuhn_4p': 200,
+    'tiny_hanabi': 200,
 }
 NUM_PLAYERS_MAP = {
     'leduc': 2,
@@ -31,6 +31,10 @@ NUM_PLAYERS_MAP = {
     'kuhn_3p': 3,
     'kuhn_4p': 4,
     'tiny_hanabi': 2,
+}
+EXTRA_GAME_PARAMS_MAP = {
+    'goofspiel': ('5',),
+    'random_goofspiel': ('4',),
 }
 
 
