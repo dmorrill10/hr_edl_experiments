@@ -19,8 +19,11 @@ _alg_label_map = {
     'CSPS-CFR+': r'$\\\text{CFR}_{\text{CSPS}}^+$',
     'CFPS-CFR': r'$\\\text{CFR}_{\text{CFPS}}$',
     'CFPS-CFR+': r'$\\\text{CFR}_{\text{CFPS}}^+$',
+    'C2PS-CFR': r'$\\\text{CFR}_{\text{C2PS}}$',
+    'C2PS-CFR+': r'$\\\text{CFR}_{\text{C2PS}}^+$',
     'TIPS-CFR': r'$\\\text{CFR}_{\text{TIPS}}$',
     'TIPS-CFR+': r'$\\\text{CFR}_{\text{TIPS}}^+$',
+    'TIPS-CFR_EX+IN': r'$\\\text{CFR}_{\text{TIPS}, \text{EX} + \text{IN}}^+$',
     'CFR_EX+IN': r'$\\\text{CFR}_{\text{EX} + \text{IN}}$',
     'CFR+_EX+IN': r'$\\\text{CFR}_{\text{EX} + \text{IN}}^+$',
     'BPS-CFR': r'$\\\text{CFR}_{\text{BPS}}$',
@@ -53,17 +56,20 @@ _alg_order_map = {
     'CSPS-CFR+': 19,
     'CFPS-CFR': 16,
     'CFPS-CFR+': 17,
-    'TIPS-CFR': 20,
-    'TIPS-CFR+': 21,
+    'C2PS-CFR': 20,
+    'C2PS-CFR+': 21,
+    'TIPS-CFR': 22,
+    'TIPS-CFR+': 23,
+    'TIPS-CFR_EX+IN': 24,
     'CFR_EX+IN': 10,
     'CFR+_EX+IN': 11,
     'BPS-CFR': 14,
     'BPS-CFR+': 15,
-    'FP': 22,
-    'PI': 23,
-    'greed_punisher': 24,
-    'avg': 25,
-    'BR': 26,
+    'FP': 25,
+    'PI': 26,
+    'greed_punisher': 27,
+    'avg': 28,
+    'BR': 29,
 }
 
 
@@ -93,7 +99,10 @@ _game_label_map = {
     'kuhn_4p': r'Kuhn poker',
     'leduc': r"Leduc hold'em",
     'goofspiel': r"$\\\text{{goofspiel}}_{{\\\text{{DET}}}}$",
+    'goofspiel_ascending': r"$\\\text{{goofspiel}}_{{\\\text{{DET}}}}$",
     'random_goofspiel': r"$\\\text{{goofspiel}}_{{\\\text{{RNG}}}}$",
+    'goofspiel_3p': r"$\\\text{{goofspiel}}_{{\\\text{{DET}}}}$",
+    'goofspiel_ascending_3p': r"$\\\text{{goofspiel}}_{{\\\text{{DET}}}}$",
     'tiny_hanabi': r"tiny Hanabi"
 }
 _game_label_map = {
@@ -121,10 +130,13 @@ _game_order_map = {
     'kuhn_3p': 1,
     'kuhn_4p': 2,
     'goofspiel': 3,
-    'random_goofspiel': 4,
-    'tiny_bridge': 5,
-    'tiny_hanabi': 6,
-    'avg': 7,
+    'goofspiel_ascending': 4,
+    'random_goofspiel': 5,
+    'goofspiel_3p': 6,
+    'goofspiel_ascending_3p': 7,
+    'tiny_bridge': 8,
+    'tiny_hanabi': 9,
+    'avg': 10,
 }
 
 

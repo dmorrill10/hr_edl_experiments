@@ -3,8 +3,14 @@ GAME_MAP = {
         'leduc_poker',
     'goofspiel':
         'goofspiel(imp_info=True,num_cards=5,points_order=descending)',
+    'goofspiel_ascending':
+        'goofspiel(imp_info=True,num_cards=5,points_order=ascending)',
     'random_goofspiel':
         'goofspiel(imp_info=True,num_cards=4,points_order=random)',
+    'goofspiel_3p':
+        'goofspiel(imp_info=True,num_cards=4,points_order=descending,players=3)',
+    'goofspiel_ascending_3p':
+        'goofspiel(imp_info=True,num_cards=4,points_order=ascending,players=3)',
     'tiny_bridge':
         'tiny_bridge_2p',
     'kuhn_3p':
@@ -18,6 +24,9 @@ NUM_ITERATIONS_MAP = {
     'leduc': 200,
     'goofspiel': 200,
     'random_goofspiel': 200,
+    'goofspiel_3p': 200,
+    'goofspiel_ascending': 200,
+    'goofspiel_ascending_3p': 200,
     'tiny_bridge': 200,
     'kuhn_3p': 200,
     'kuhn_4p': 200,
@@ -26,15 +35,21 @@ NUM_ITERATIONS_MAP = {
 NUM_PLAYERS_MAP = {
     'leduc': 2,
     'goofspiel': 2,
+    'goofspiel_ascending': 2,
     'random_goofspiel': 2,
+    'goofspiel_3p': 3,
+    'goofspiel_ascending_3p': 3,
     'tiny_bridge': 2,
     'kuhn_3p': 3,
     'kuhn_4p': 4,
     'tiny_hanabi': 2,
 }
 EXTRA_GAME_PARAMS_MAP = {
-    'goofspiel': ('5',),
-    'random_goofspiel': ('4',),
+    'goofspiel': ('5', 'D'),
+    'goofspiel_ascending': ('5', 'A'),
+    'random_goofspiel': ('4', 'D'),
+    'goofspiel_3p': ('4', 'D'),
+    'goofspiel_ascending_3p': ('4', 'A'),
 }
 
 
@@ -68,7 +83,7 @@ class ExperimentParameters():
     return v if any([tag == 'cfr_plus' for tag in alg_group_tags[1:]]) else 0
 
   def non_cfr_group(self):
-    return 1
+    return 0
 
   def game(self):
     return GAME_MAP[self.game_tag]

@@ -1,1101 +1,1601 @@
-learner/env  CFR  A-CFR  CFR_IN  A-CFR_IN  BPS-CFR  TIPS-CFR  IPS-CFR  PI  greed_punisher  FP  
+learner/env  CFR  CFR_IN  A-CFR_IN  BPS-CFR  TIPS-CFR  CSPS-CFR  CFPS-CFR  
 t = 0
-CFR  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
-A-CFR  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
-CFR_IN  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
-A-CFR_IN  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
-BPS-CFR  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
-TIPS-CFR  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
-IPS-CFR  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
-PI  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
-greed_punisher  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
-FP  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
+CFR  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
+CFR_IN  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
+A-CFR_IN  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
+BPS-CFR  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
+TIPS-CFR  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
+CSPS-CFR  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
+CFPS-CFR  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  3.72222  
 t = 1
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  8  8  8  8  8  8  8  8  
-A-CFR_IN  8  8  8  8  8  8  8  8  8  8  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  8  8  8  8  8  8  8  8  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  8  8  8  8  8  8  8  8  
-FP  8  8  8  8  8  8  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  8  8  8  8  8  8  
+A-CFR_IN  8  8  8  8  8  8  8  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  8  8  8  8  8  8  
+CSPS-CFR  8  8  8  8  8  8  8  
+CFPS-CFR  8  8  8  8  8  8  8  
 t = 2
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  8  8  8  8  8  8  7.25  8  
-A-CFR_IN  8  8  8  8  8  8  8  8  7.25  8  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  8  8  8  8  8  8  7.25  8  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  7.25  7.25  8  7.25  8  8  8  8  
-FP  8  8  8  8  8  8  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  8  8  8  8  8  8  
+A-CFR_IN  8  8  8  8  8  8  8  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  8  8  8  8  8  8  
+CSPS-CFR  8  8  8  8  8  8  8  
+CFPS-CFR  8  8  8  8  8  8  8  
 t = 3
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  8  8  8  8  8  8  8  8  
-A-CFR_IN  8  8  8  8  8  8  8  8  8  8  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  8  8  8  8  8  8  8  8  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  8  8  8  8  8  8  8  8  
-FP  8  8  8  8  8  8  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  8  8  8  8  8  8  
+A-CFR_IN  8  8  8  8  8  8  8  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  8  8  8  8  8  8  
+CSPS-CFR  8  8  8  8  8  8  8  
+CFPS-CFR  8  8  8  8  8  8  8  
 t = 4
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  8.5  8.5  8  8.5  8  8  8.5  8.16667  
-A-CFR_IN  8  8  8.5  8.5  8  8.5  8  8  8.5  8.16667  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  8.5  8.5  8  8.5  8  8  8.5  8.16667  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  8.5  8.5  8  8.5  8  8  8  8  
-FP  8  8  8.16667  8.16667  8  8.16667  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  8  8  8  8  8  8  
+A-CFR_IN  8  8  8  8  8  8  8  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  8  8  8  8  8  8  
+CSPS-CFR  8  8  8  8  8  8  8  
+CFPS-CFR  8  8  8  8  8  8  8  
 t = 5
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  8.94118  8.94118  8  8.94118  8  8  8.5  8.5  
-A-CFR_IN  8  8  8.94118  8.94118  8  8.94118  8  8  8.5  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  8.94118  8.94118  8  8.94118  8  8  8.5  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  8.5  8.5  8  8.5  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  8  8  8  8  8  8  
+A-CFR_IN  8  8  8  8  8  8  8  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  8  8  8  8  8  8  
+CSPS-CFR  8  8  8  8  8  8  8  
+CFPS-CFR  8  8  8  8  8  8  8  
 t = 6
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  7.73625  7.73625  8  7.73625  8  8  8  8.5  
-A-CFR_IN  8  8  7.73625  7.73625  8  7.73625  8  8  8  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  7.73625  7.73625  8  7.73625  8  8  8  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  8  8  8  8  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  8  8  8  8  8  8  
+A-CFR_IN  8  8  8  8  8  8  8  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  8  8  8  8  8  8  
+CSPS-CFR  8  8  8  8  8  8  8  
+CFPS-CFR  8  8  8  8  8  8  8  
 t = 7
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  8  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  8  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  8  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  8  8  8  8  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  8  8  8  8  8  8  
+A-CFR_IN  8  8  8  8  8  8  8  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  8  8  8  8  8  8  
+CSPS-CFR  8  8  8  8  8  8  8  
+CFPS-CFR  8  8  8  8  8  8  8  
 t = 8
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  8  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  8  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  8  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  8  8  8  8  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  8.21131  8.21131  8  8.21131  8.21131  8.21131  
+A-CFR_IN  8  8.21131  8.21131  8  8.21131  8.21131  8.21131  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  8.21131  8.21131  8  8.21131  8.21131  8.21131  
+CSPS-CFR  8  8.21131  8.21131  8  8.21131  8.21131  8.21131  
+CFPS-CFR  8  8.21131  8.21131  8  8.21131  8.21131  8.21131  
 t = 9
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  8  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  8  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  8  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  8  8  8  8  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  8.83397  8.83397  8  8.83397  8.83397  8.83397  
+A-CFR_IN  8  8.83397  8.83397  8  8.83397  8.83397  8.83397  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  8.83397  8.83397  8  8.83397  8.83397  8.83397  
+CSPS-CFR  8  8.83397  8.83397  8  8.83397  8.83397  8.83397  
+CFPS-CFR  8  8.83397  8.83397  8  8.83397  8.83397  8.83397  
 t = 10
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  8  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  8  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  8  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  8  8  8  8  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  8.62668  8.62668  8  8.62668  8.62668  8.62668  
+A-CFR_IN  8  8.62668  8.62668  8  8.62668  8.62668  8.62668  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  8.62668  8.62668  8  8.62668  8.62668  8.62668  
+CSPS-CFR  8  8.62668  8.62668  8  8.62668  8.62668  8.62668  
+CFPS-CFR  8  8.62668  8.62668  8  8.62668  8.62668  8.62668  
 t = 11
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  8  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  8  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  8  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  8  8  8  8  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 12
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  8.33333  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  8.33333  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  8.33333  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  8.33333  8.33333  8  8.33333  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 13
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 14
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 15
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 16
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 17
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 18
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 19
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 20
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 21
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 22
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 23
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 24
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 25
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 26
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 27
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 28
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 29
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 30
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 31
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 32
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 33
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 34
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 35
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 36
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 37
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 38
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 39
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 40
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 41
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 42
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 43
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 44
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 45
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 46
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 47
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 48
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 49
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 50
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 51
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 52
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 53
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 54
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 55
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 56
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 57
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 58
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 59
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 60
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 61
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 62
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 63
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 64
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 65
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 66
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 67
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 68
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 69
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 70
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 71
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 72
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 73
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 74
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 75
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 76
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 77
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 78
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 79
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 80
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 81
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 82
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 83
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 84
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 85
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 86
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 87
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 88
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 89
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 90
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 91
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 92
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 93
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 94
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 95
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 96
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 97
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 98
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
 t = 99
-CFR  8  8  8  8  8  8  8  8  8  8  
-A-CFR  8  8  8  8  8  8  8  8  8  8  
-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-A-CFR_IN  8  8  9  9  8  9  8  8  9  8.5  
-BPS-CFR  8  8  8  8  8  8  8  8  8  8  
-TIPS-CFR  8  8  9  9  8  9  8  8  9  8.5  
-IPS-CFR  8  8  8  8  8  8  8  8  8  8  
-PI  8  8  8  8  8  8  8  8  8  8  
-greed_punisher  8  8  9  9  8  9  8  8  8  8  
-FP  8  8  8.5  8.5  8  8.5  8  8  8  8  
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 100
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 101
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 102
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 103
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 104
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 105
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 106
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 107
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 108
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 109
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 110
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 111
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 112
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 113
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 114
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 115
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 116
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 117
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 118
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 119
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 120
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 121
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 122
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 123
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 124
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 125
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 126
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 127
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 128
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 129
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 130
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 131
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 132
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 133
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 134
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 135
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 136
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 137
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 138
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 139
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 140
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 141
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 142
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 143
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 144
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 145
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 146
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 147
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 148
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 149
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 150
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 151
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 152
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 153
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 154
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 155
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 156
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 157
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 158
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 159
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 160
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 161
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 162
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 163
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 164
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 165
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 166
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 167
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 168
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 169
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 170
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 171
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 172
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 173
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 174
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 175
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 176
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 177
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 178
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 179
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 180
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 181
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 182
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 183
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 184
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 185
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 186
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 187
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 188
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 189
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 190
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 191
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 192
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 193
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 194
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 195
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 196
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 197
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 198
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
+t = 199
+CFR  8  8  8  8  8  8  8  
+CFR_IN  8  9  9  8  9  9  9  
+A-CFR_IN  8  9  9  8  9  9  9  
+BPS-CFR  8  8  8  8  8  8  8  
+TIPS-CFR  8  9  9  8  9  9  9  
+CSPS-CFR  8  9  9  8  9  9  9  
+CFPS-CFR  8  9  9  8  9  9  9  
