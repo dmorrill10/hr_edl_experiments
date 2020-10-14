@@ -90,26 +90,17 @@ def with_sorted_algs(df):
 
 
 # Game labels
-def _fill_in_num_players_and_iterations(game_string, game_tag):
-  return game_string.format(xp.NUM_PLAYERS_MAP[game_tag],
-                            xp.NUM_ITERATIONS_MAP[game_tag])
-
-
 _game_label_map = {
     'tiny_bridge': r'tiny bridge',
     'kuhn_3p': r'Kuhn poker',
     'kuhn_4p': r'Kuhn poker',
     'leduc': r"Leduc hold'em",
-    'goofspiel': r"$\\\text{{goofspiel}}_{{\\\text{{DET}}}}$",
-    'goofspiel_ascending': r"$\\\text{{goofspiel}}_{{\\\text{{DET}}}}$",
-    'random_goofspiel': r"$\\\text{{goofspiel}}_{{\\\text{{RNG}}}}$",
-    'goofspiel_3p': r"$\\\text{{goofspiel}}_{{\\\text{{DET}}}}$",
-    'goofspiel_ascending_3p': r"$\\\text{{goofspiel}}_{{\\\text{{DET}}}}$",
+    'goofspiel': r"goofspiel",
+    'goofspiel_ascending': r"goofspiel",
+    'random_goofspiel': r"goofspiel",
+    'goofspiel_3p': r"goofspiel",
+    'goofspiel_ascending_3p': r"goofspiel",
     'tiny_hanabi': r"tiny Hanabi"
-}
-_game_label_map = {
-    game_tag: _fill_in_num_players_and_iterations(game_string, game_tag)
-    for game_tag, game_string in _game_label_map.items()
 }
 
 

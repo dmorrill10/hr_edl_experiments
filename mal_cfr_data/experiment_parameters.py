@@ -45,11 +45,11 @@ NUM_PLAYERS_MAP = {
     'tiny_hanabi': 2,
 }
 EXTRA_GAME_PARAMS_MAP = {
-    'goofspiel': ('5', 'D'),
-    'goofspiel_ascending': ('5', 'A'),
-    'random_goofspiel': ('4', 'D'),
-    'goofspiel_3p': ('4', 'D'),
-    'goofspiel_ascending_3p': ('4', 'A'),
+    'goofspiel': ('5', r'\downarrow'),
+    'goofspiel_ascending': ('5', r'\uparrow'),
+    'random_goofspiel': ('4', 'R'),
+    'goofspiel_3p': ('4', r'\downarrow'),
+    'goofspiel_ascending_3p': ('4', r'\uparrow'),
 }
 
 
