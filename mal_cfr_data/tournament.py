@@ -100,7 +100,8 @@ _game_label_map = {
     'random_goofspiel': r"goofspiel",
     'goofspiel_3p': r"goofspiel",
     'goofspiel_ascending_3p': r"goofspiel",
-    'tiny_hanabi': r"tiny Hanabi"
+    'tiny_hanabi': r"tiny Hanabi",
+    'crewmates_3p': r"crewmates",
 }
 
 
@@ -126,10 +127,11 @@ _game_order_map = {
     'goofspiel_ascending': 4,
     'random_goofspiel': 5,
     'goofspiel_3p': 6,
-    'goofspiel_ascending_3p': 7,
-    'tiny_bridge': 8,
-    'tiny_hanabi': 9,
-    'avg': 10,
+    'goofspiel_ascending_3p': 8,
+    'tiny_bridge': 9,
+    'tiny_hanabi': 10,
+    'crewmates_3p': 11,
+    'avg': 12,
 }
 
 

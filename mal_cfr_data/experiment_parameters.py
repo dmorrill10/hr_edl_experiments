@@ -19,6 +19,8 @@ GAME_MAP = {
         'kuhn_poker(players=4)',
     'tiny_hanabi':
         'tiny_hanabi',
+    'crewmates_3p':
+        'crewmates(max_plunders=8,num_ranks=5,stack_size=3,players=3,multiplier=5)',
 }
 NUM_ITERATIONS_MAP = {
     'leduc': 400,
@@ -31,6 +33,7 @@ NUM_ITERATIONS_MAP = {
     'kuhn_3p': 400,
     'kuhn_4p': 400,
     'tiny_hanabi': 400,
+    'crewmates_3p': 100,
 }
 NUM_PLAYERS_MAP = {
     'leduc': 2,
@@ -43,6 +46,7 @@ NUM_PLAYERS_MAP = {
     'kuhn_3p': 3,
     'kuhn_4p': 4,
     'tiny_hanabi': 2,
+    'crewmates_3p': 3
 }
 EXTRA_GAME_PARAMS_MAP = {
     'goofspiel': ('5', r'\downarrow'),
@@ -50,6 +54,7 @@ EXTRA_GAME_PARAMS_MAP = {
     'random_goofspiel': ('4', 'R'),
     'goofspiel_3p': ('4', r'\downarrow'),
     'goofspiel_ascending_3p': ('4', r'\uparrow'),
+    'crewmates_3p': ('P=10', 'H=4', 'S=3'),
 }
 
 
