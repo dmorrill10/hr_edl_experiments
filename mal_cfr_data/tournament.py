@@ -102,6 +102,14 @@ _game_label_map = {
     'goofspiel_ascending_3p': r"goofspiel",
     'tiny_hanabi': r"tiny Hanabi",
     'crewmates_3p': r"crewmates",
+    'crewmates_3p_5h': r'crewmates',
+    'crewmates_3p_10r': r'crewmates',
+    'crewmates_3p_10r_10g': r'crewmates',
+    'crewmates_3p_10r_20g': r'crewmates',
+    'crewmates_3p_10r_30g': r'crewmates',
+    'crewmates_3p_10r_5h_10g': r'crewmates',
+    'crewmates_3p_10r_5h_20g': r'crewmates',
+    'crewmates_3p_10r_5h_30g': r'crewmates',
 }
 
 
@@ -131,7 +139,15 @@ _game_order_map = {
     'tiny_bridge': 9,
     'tiny_hanabi': 10,
     'crewmates_3p': 11,
-    'avg': 12,
+    'crewmates_3p_10r': 12,
+    'crewmates_3p_5h': 13,
+    'crewmates_3p_10r_10g': 14,
+    'crewmates_3p_10r_20g': 15,
+    'crewmates_3p_10r_30g': 16,
+    'crewmates_3p_10r_5h_10g': 17,
+    'crewmates_3p_10r_5h_20g': 18,
+    'crewmates_3p_10r_5h_30g': 19,
+    'avg': 20,
 }
 
 
