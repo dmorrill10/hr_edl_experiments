@@ -110,6 +110,13 @@ _game_label_map = {
     'crewmates_3p_10r_5h_10g': r'crewmates',
     'crewmates_3p_10r_5h_20g': r'crewmates',
     'crewmates_3p_10r_5h_30g': r'crewmates',
+    'crewmates_3p_10r_1l': r'crewmates',
+    'crewmates_3p_10r_10g_1l': r'crewmates',
+    'crewmates_3p_10r_20g_1l': r'crewmates',
+    'crewmates_3p_10r_30g_1l': r'crewmates',
+    'crewmates_3p_10r_5h_10g_1l': r'crewmates',
+    'crewmates_3p_10r_5h_20g_1l': r'crewmates',
+    'crewmates_3p_10r_5h_30g_1l': r'crewmates',
 }
 
 
@@ -139,15 +146,22 @@ _game_order_map = {
     'tiny_bridge': 9,
     'tiny_hanabi': 10,
     'crewmates_3p': 11,
-    'crewmates_3p_10r': 12,
     'crewmates_3p_5h': 13,
+    'crewmates_3p_10r': 12,
     'crewmates_3p_10r_10g': 14,
     'crewmates_3p_10r_20g': 15,
     'crewmates_3p_10r_30g': 16,
     'crewmates_3p_10r_5h_10g': 17,
     'crewmates_3p_10r_5h_20g': 18,
     'crewmates_3p_10r_5h_30g': 19,
-    'avg': 20,
+    'crewmates_3p_10r_1l': 20,
+    'crewmates_3p_10r_10g_1l': 21,
+    'crewmates_3p_10r_20g_1l': 22,
+    'crewmates_3p_10r_30g_1l': 23,
+    'crewmates_3p_10r_5h_10g_1l': 24,
+    'crewmates_3p_10r_5h_20g_1l': 25,
+    'crewmates_3p_10r_5h_30g_1l': 26,
+    'avg': 27,
 }
 
 

@@ -20,23 +20,37 @@ GAME_MAP = {
     'tiny_hanabi':
         'tiny_hanabi',
     'crewmates_3p':
-        'crewmates(rounds=6,ranks=4,stack=2,players=3,growth=0.1)',
-    'crewmates_3p_10r':
-        'crewmates(rounds=10,ranks=4,stack=2,players=3,growth=0.1)',
-    'crewmates_3p_10r_10g':
-        'crewmates(rounds=10,ranks=4,stack=2,players=3,growth=0.1)',
-    'crewmates_3p_10r_20g':
-        'crewmates(rounds=10,ranks=4,stack=2,players=3,growth=0.2)',
-    'crewmates_3p_10r_30g':
-        'crewmates(rounds=10,ranks=4,stack=2,players=3,growth=0.3)',
+        'crewmates(rounds=6,ranks=4,stack=2,players=3,growth=0.1,last_plunder_reward=2)',
     'crewmates_3p_5h':
-        'crewmates(rounds=6,ranks=5,stack=2,players=3,growth=0.1)',
+        'crewmates(rounds=6,ranks=5,stack=2,players=3,growth=0.1,last_plunder_reward=2)',
+    'crewmates_3p_10r':
+        'crewmates(rounds=10,ranks=4,stack=2,players=3,growth=0.1,last_plunder_reward=2)',
+    'crewmates_3p_10r_10g':
+        'crewmates(rounds=10,ranks=4,stack=2,players=3,growth=0.1,last_plunder_reward=2)',
+    'crewmates_3p_10r_20g':
+        'crewmates(rounds=10,ranks=4,stack=2,players=3,growth=0.2,last_plunder_reward=2)',
+    'crewmates_3p_10r_30g':
+        'crewmates(rounds=10,ranks=4,stack=2,players=3,growth=0.3,last_plunder_reward=2)',
     'crewmates_3p_10r_5h_10g':
-        'crewmates(rounds=10,ranks=5,stack=2,players=3,growth=0.1)',
+        'crewmates(rounds=10,ranks=5,stack=2,players=3,growth=0.1,last_plunder_reward=2)',
     'crewmates_3p_10r_5h_20g':
-        'crewmates(rounds=10,ranks=5,stack=2,players=3,growth=0.2)',
+        'crewmates(rounds=10,ranks=5,stack=2,players=3,growth=0.2,last_plunder_reward=2)',
     'crewmates_3p_10r_5h_30g':
-        'crewmates(rounds=10,ranks=5,stack=2,players=3,growth=0.3)',
+        'crewmates(rounds=10,ranks=5,stack=2,players=3,growth=0.3,last_plunder_reward=2)',
+    'crewmates_3p_10r_1l':
+        'crewmates(rounds=10,ranks=4,stack=2,players=3,growth=0.1,last_plunder_reward=1)',
+    'crewmates_3p_10r_10g_1l':
+        'crewmates(rounds=10,ranks=4,stack=2,players=3,growth=0.1,last_plunder_reward=1)',
+    'crewmates_3p_10r_20g_1l':
+        'crewmates(rounds=10,ranks=4,stack=2,players=3,growth=0.2,last_plunder_reward=1)',
+    'crewmates_3p_10r_30g_1l':
+        'crewmates(rounds=10,ranks=4,stack=2,players=3,growth=0.3,last_plunder_reward=1)',
+    'crewmates_3p_10r_5h_10g_1l':
+        'crewmates(rounds=10,ranks=5,stack=2,players=3,growth=0.1,last_plunder_reward=1)',
+    'crewmates_3p_10r_5h_20g_1l':
+        'crewmates(rounds=10,ranks=5,stack=2,players=3,growth=0.2,last_plunder_reward=1)',
+    'crewmates_3p_10r_5h_30g_1l':
+        'crewmates(rounds=10,ranks=5,stack=2,players=3,growth=0.3,last_plunder_reward=1)',
 }
 NUM_ITERATIONS_MAP = {
     'leduc': 400,
@@ -50,14 +64,21 @@ NUM_ITERATIONS_MAP = {
     'kuhn_4p': 400,
     'tiny_hanabi': 400,
     'crewmates_3p': 400,
-    'crewmates_3p_10r': 400,
     'crewmates_3p_5h': 400,
+    'crewmates_3p_10r': 400,
     'crewmates_3p_10r_10g': 400,
     'crewmates_3p_10r_20g': 400,
     'crewmates_3p_10r_30g': 400,
     'crewmates_3p_10r_5h_10g': 400,
     'crewmates_3p_10r_5h_20g': 400,
     'crewmates_3p_10r_5h_30g': 400,
+    'crewmates_3p_10r_1l': 400,
+    'crewmates_3p_10r_10g_1l': 400,
+    'crewmates_3p_10r_20g_1l': 400,
+    'crewmates_3p_10r_30g_1l': 400,
+    'crewmates_3p_10r_5h_10g_1l': 400,
+    'crewmates_3p_10r_5h_20g_1l': 400,
+    'crewmates_3p_10r_5h_30g_1l': 400,
 }
 NUM_PLAYERS_MAP = {
     'leduc': 2,
@@ -71,14 +92,21 @@ NUM_PLAYERS_MAP = {
     'kuhn_4p': 4,
     'tiny_hanabi': 2,
     'crewmates_3p': 3,
-    'crewmates_3p_10r': 3,
     'crewmates_3p_5h': 3,
+    'crewmates_3p_10r': 3,
     'crewmates_3p_10r_10g': 3,
     'crewmates_3p_10r_20g': 3,
     'crewmates_3p_10r_30g': 3,
     'crewmates_3p_10r_5h_10g': 3,
     'crewmates_3p_10r_5h_20g': 3,
     'crewmates_3p_10r_5h_30g': 3,
+    'crewmates_3p_10r_1l': 3,
+    'crewmates_3p_10r_10g_1l': 3,
+    'crewmates_3p_10r_20g_1l': 3,
+    'crewmates_3p_10r_30g_1l': 3,
+    'crewmates_3p_10r_5h_10g_1l': 3,
+    'crewmates_3p_10r_5h_20g_1l': 3,
+    'crewmates_3p_10r_5h_30g_1l': 3,
 }
 EXTRA_GAME_PARAMS_MAP = {
     'goofspiel': ('5', r'\downarrow'),
@@ -86,15 +114,22 @@ EXTRA_GAME_PARAMS_MAP = {
     'random_goofspiel': ('4', 'R'),
     'goofspiel_3p': ('4', r'\downarrow'),
     'goofspiel_ascending_3p': ('4', r'\uparrow'),
-    'crewmates_3p': ('R=6', 'H=4', 'S=2', 'G=0.1'),
-    'crewmates_3p_10r': ('R=10', 'H=4', 'S=2', 'G=0.1'),
-    'crewmates_3p_5h': ('R=6', 'H=5', 'S=2', 'G=0.1'),
-    'crewmates_3p_10r_10g': ('R=10', 'H=4', 'S=2', 'G=0.10'),
-    'crewmates_3p_10r_20g': ('R=10', 'H=4', 'S=2', 'G=0.20'),
-    'crewmates_3p_10r_30g': ('R=10', 'H=4', 'S=2', 'G=0.30'),
-    'crewmates_3p_10r_5h_10g': ('R=10', 'H=5', 'S=2', 'G=0.10'),
-    'crewmates_3p_10r_5h_20g': ('R=10', 'H=5', 'S=2', 'G=0.20'),
-    'crewmates_3p_10r_5h_30g': ('R=10', 'H=5', 'S=2', 'G=0.30'),
+    'crewmates_3p': ('R=6', 'H=4', 'S=2', 'G=0.1', 'L=2'),
+    'crewmates_3p_5h': ('R=6', 'H=5', 'S=2', 'G=0.1', 'L=2'),
+    'crewmates_3p_10r': ('R=10', 'H=4', 'S=2', 'G=0.1', 'L=2'),
+    'crewmates_3p_10r_10g': ('R=10', 'H=4', 'S=2', 'G=0.10', 'L=2'),
+    'crewmates_3p_10r_20g': ('R=10', 'H=4', 'S=2', 'G=0.20', 'L=2'),
+    'crewmates_3p_10r_30g': ('R=10', 'H=4', 'S=2', 'G=0.30', 'L=2'),
+    'crewmates_3p_10r_5h_10g': ('R=10', 'H=5', 'S=2', 'G=0.10', 'L=2'),
+    'crewmates_3p_10r_5h_20g': ('R=10', 'H=5', 'S=2', 'G=0.20', 'L=2'),
+    'crewmates_3p_10r_5h_30g': ('R=10', 'H=5', 'S=2', 'G=0.30', 'L=2'),
+    'crewmates_3p_10r_1l': ('R=10', 'H=4', 'S=2', 'G=0.1', 'L=1'),
+    'crewmates_3p_10r_10g_1l': ('R=10', 'H=4', 'S=2', 'G=0.10', 'L=1'),
+    'crewmates_3p_10r_20g_1l': ('R=10', 'H=4', 'S=2', 'G=0.20', 'L=1'),
+    'crewmates_3p_10r_30g_1l': ('R=10', 'H=4', 'S=2', 'G=0.30', 'L=1'),
+    'crewmates_3p_10r_5h_10g_1l': ('R=10', 'H=5', 'S=2', 'G=0.10', 'L=1'),
+    'crewmates_3p_10r_5h_20g_1l': ('R=10', 'H=5', 'S=2', 'G=0.20', 'L=1'),
+    'crewmates_3p_10r_5h_30g_1l': ('R=10', 'H=5', 'S=2', 'G=0.30', 'L=1'),
 }
 
 
