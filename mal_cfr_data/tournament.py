@@ -29,6 +29,7 @@ _alg_label_map = {
     'CFR+_EX+IN': r'$\\\text{CFR}_{\text{EX} + \text{IN}}^+$',
     'BPS-CFR': r'$\\\text{CFR}_{\text{BPS}}$',
     'BPS-CFR+': r'$\\\text{CFR}_{\text{BPS}}^+$',
+    'BEHAV-CFR': r'$\\\text{CFR}_{\text{BEHAV}}$',
     'greed_punisher': 'GP'
 }
 
@@ -67,11 +68,12 @@ _alg_order_map = {
     'CFR+_EX+IN': 11,
     'BPS-CFR': 14,
     'BPS-CFR+': 15,
-    'FP': 26,
-    'PI': 27,
-    'greed_punisher': 28,
-    'avg': 29,
-    'BR': 30,
+    'BEHAV-CFR': 26,
+    'FP': 27,
+    'PI': 28,
+    'greed_punisher': 29,
+    'avg': 30,
+    'BR': 31,
 }
 
 
@@ -89,34 +91,45 @@ def with_sorted_algs(df):
   return df
 
 
+_game_tags = [
+    'leduc',
+    'kuhn_3p',
+    'kuhn_4p',
+    'goofspiel',
+    'goofspiel_ascending',
+    'random_goofspiel',
+    'goofspiel_3p',
+    'goofspiel_ascending_3p',
+    'tiny_bridge',
+    'tiny_hanabi',
+    'crewmates_3p_6r_4h_10g_1l',
+    'crewmates_3p_6r_4h_20g_1l',
+    'crewmates_3p_6r_4h_30g_1l',
+    'crewmates_3p_6r_4h_10g_2l',
+    'crewmates_3p_6r_4h_20g_2l',
+    'crewmates_3p_6r_4h_30g_2l',
+    'crewmates_3p_10r_10g_1l',
+    'crewmates_3p_10r_20g_1l',
+    'crewmates_3p_10r_30g_1l',
+    'crewmates_3p_10r_10g',
+    'crewmates_3p_10r_20g',
+    'crewmates_3p_10r_30g',
+    'crewmates_3p_10r_5h_10g_1l',
+    'crewmates_3p_10r_5h_20g_1l',
+    'crewmates_3p_10r_5h_30g_1l',
+    'crewmates_3p_10r_5h_10g',
+    'crewmates_3p_10r_5h_20g',
+    'crewmates_3p_10r_5h_30g',
+]
+
 # Game labels
 _game_label_map = {
     'tiny_bridge': r'tiny bridge',
     'kuhn_3p': r'Kuhn poker',
     'kuhn_4p': r'Kuhn poker',
     'leduc': r"Leduc hold'em",
-    'goofspiel': r"goofspiel",
-    'goofspiel_ascending': r"goofspiel",
     'random_goofspiel': r"goofspiel",
-    'goofspiel_3p': r"goofspiel",
-    'goofspiel_ascending_3p': r"goofspiel",
-    'tiny_hanabi': r"tiny Hanabi",
-    'crewmates_3p': r"crewmates",
-    'crewmates_3p_5h': r'crewmates',
-    'crewmates_3p_10r': r'crewmates',
-    'crewmates_3p_10r_10g': r'crewmates',
-    'crewmates_3p_10r_20g': r'crewmates',
-    'crewmates_3p_10r_30g': r'crewmates',
-    'crewmates_3p_10r_5h_10g': r'crewmates',
-    'crewmates_3p_10r_5h_20g': r'crewmates',
-    'crewmates_3p_10r_5h_30g': r'crewmates',
-    'crewmates_3p_10r_1l': r'crewmates',
-    'crewmates_3p_10r_10g_1l': r'crewmates',
-    'crewmates_3p_10r_20g_1l': r'crewmates',
-    'crewmates_3p_10r_30g_1l': r'crewmates',
-    'crewmates_3p_10r_5h_10g_1l': r'crewmates',
-    'crewmates_3p_10r_5h_20g_1l': r'crewmates',
-    'crewmates_3p_10r_5h_30g_1l': r'crewmates',
+    'tiny_hanabi': r"tiny Hanabi"
 }
 
 
@@ -130,39 +143,15 @@ def game_label(tag, t=None):
           _game_label_map[tag],
           ','.join(xp.EXTRA_GAME_PARAMS_MAP[tag] + (params_string,)))
     return '{}$({})$'.format(_game_label_map[tag], params_string)
+  elif tag[:len('crewmates')] == 'crewmates':
+    return 'crewmates'
+  elif tag[:len('goofspiel')] == 'goofspiel':
+    return 'goofspiel'
   return tag
 
 
 # Game order and sorting
-_game_order_map = {
-    'leduc': 0,
-    'kuhn_3p': 1,
-    'kuhn_4p': 2,
-    'goofspiel': 3,
-    'goofspiel_ascending': 4,
-    'random_goofspiel': 5,
-    'goofspiel_3p': 6,
-    'goofspiel_ascending_3p': 8,
-    'tiny_bridge': 9,
-    'tiny_hanabi': 10,
-    'crewmates_3p': 11,
-    'crewmates_3p_5h': 13,
-    'crewmates_3p_10r': 12,
-    'crewmates_3p_10r_10g': 14,
-    'crewmates_3p_10r_20g': 15,
-    'crewmates_3p_10r_30g': 16,
-    'crewmates_3p_10r_5h_10g': 17,
-    'crewmates_3p_10r_5h_20g': 18,
-    'crewmates_3p_10r_5h_30g': 19,
-    'crewmates_3p_10r_1l': 20,
-    'crewmates_3p_10r_10g_1l': 21,
-    'crewmates_3p_10r_20g_1l': 22,
-    'crewmates_3p_10r_30g_1l': 23,
-    'crewmates_3p_10r_5h_10g_1l': 24,
-    'crewmates_3p_10r_5h_20g_1l': 25,
-    'crewmates_3p_10r_5h_30g_1l': 26,
-    'avg': 27,
-}
+_game_order_map = {tag: i for i, tag in enumerate(_game_tags + ['avg'])}
 
 
 def game_sort_key(tag):
