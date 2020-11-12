@@ -135,19 +135,27 @@ _game_label_map = {
 
 def game_label(tag, t=None):
   if tag in _game_label_map:
-    params_string = r'N=\num{{{}}}'.format(xp.NUM_PLAYERS_MAP[tag])
-    if t is not None:
-      params_string = r'{},T=\num{{{}}}'.format(params_string, t)
-    if tag in xp.EXTRA_GAME_PARAMS_MAP:
-      return '{}$({})$'.format(
-          _game_label_map[tag],
-          ','.join(xp.EXTRA_GAME_PARAMS_MAP[tag] + (params_string,)))
-    return '{}$({})$'.format(_game_label_map[tag], params_string)
+    name = _game_label_map[tag]
   elif tag[:len('crewmates')] == 'crewmates':
-    return 'crewmates'
+    name = 'crewmates'
   elif tag[:len('goofspiel')] == 'goofspiel':
-    return 'goofspiel'
-  return tag
+    name = 'goofspiel'
+  else:
+    name = tag
+  
+  params_string = ''
+  if tag in xp.NUM_PLAYERS_MAP:
+    params_string = r'N=\num{{{}}}'.format(xp.NUM_PLAYERS_MAP[tag])
+  if t is not None:
+    params_string = r'{},T=\num{{{}}}'.format(params_string, t)
+  if tag in xp.EXTRA_GAME_PARAMS_MAP:
+    return '{}$({})$'.format(
+        name,
+        ','.join(xp.EXTRA_GAME_PARAMS_MAP[tag] + (params_string,)))
+  if params_string != '':
+    return '{}$({})$'.format(name, params_string)
+  else:
+    return name
 
 
 # Game order and sorting
