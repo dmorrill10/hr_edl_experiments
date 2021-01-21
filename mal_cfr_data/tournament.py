@@ -101,6 +101,7 @@ _game_tags = [
     'random_goofspiel',
     'goofspiel_3p',
     'goofspiel_ascending_3p',
+    'sheriff',
     'tiny_bridge',
     'tiny_hanabi',
     'crewmates_3p_6r_4h_10g_1l',
@@ -125,6 +126,7 @@ _game_tags = [
 
 # Game labels
 _game_label_map = {
+    'sheriff': r'Sheriff',
     'tiny_bridge': r'tiny bridge',
     'kuhn_3p': r'Kuhn poker',
     'kuhn_4p': r'Kuhn poker',

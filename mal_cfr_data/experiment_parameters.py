@@ -1,4 +1,6 @@
 GAME_MAP = {
+    'sheriff':
+        'sheriff',
     'leduc':
         'leduc_poker',
     'goofspiel':
@@ -59,6 +61,7 @@ GAME_MAP = {
         'crewmates(rounds=10,ranks=5,stack=2,players=3,growth=0.3,last_plunder_reward=1)',
 }
 NUM_ITERATIONS_MAP = {
+    'sheriff': 500,
     'leduc': 500,
     'goofspiel': 500,
     'random_goofspiel': 500,
@@ -90,6 +93,7 @@ NUM_ITERATIONS_MAP = {
     'crewmates_3p_10r_5h_30g_1l': 200,
 }
 NUM_PLAYERS_MAP = {
+    'sheriff': 3,
     'leduc': 2,
     'goofspiel': 2,
     'goofspiel_ascending': 2,

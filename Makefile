@@ -2,7 +2,7 @@ OPEN_SPIEL_PRIVATE =../open_spiel-private
 EXE_DIR :=$(OPEN_SPIEL_PRIVATE)/build/bin/ltbr
 
 ALG_GROUPS :=rla-cfr
-GAMES :=tiny_bridge leduc tiny_hanabi \
+GAMES :=sheriff tiny_bridge leduc tiny_hanabi \
 	goofspiel goofspiel_ascending random_goofspiel goofspiel_3p goofspiel_ascending_3p \
 	# crewmates_3p_10r_10g crewmates_3p_10r_20g crewmates_3p_10r_30g \
 	# crewmates_3p_10r_5h_30g crewmates_3p_10r_5h_10g crewmates_3p_10r_5h_20g \
