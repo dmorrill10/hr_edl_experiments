@@ -6,30 +6,31 @@ import mal_cfr_data.experiment_parameters as xp
 
 # Algorithm labels
 _alg_label_map = {
+    'CFR': r'$\\\text{CF}$',
     'CFR+': r'$\\\text{CFR}^+$',
-    'A-CFR': r'$\\\text{CFR}_{\text{A}}$',
-    'A-CFR+': r'$\\\text{CFR}_{\text{A}}^+$',
+    'A-CFR': r'$\\\text{ACT}$',
+    'A-CFR+': r'$\\\text{ACT}^+$',
     'PGPI(10000/U)': r'$\\\text{PGPI}(\nicefrac{10000}{U})$',
     'PGPI(0.1/U)': r'$\\\text{PGPI}(\nicefrac{0.1}{U})$',
-    'CFR_IN': r'$\\\text{CFR}_{\text{IN}}$',
-    'CFR+_IN': r'$\\\text{CFR}^+_{\text{IN}}$',
-    'A-CFR_IN': r'$\\\text{CFR}_{\text{A}, \text{IN}}$',
-    'A-CFR+_IN': r'$\\\text{CFR}^+_{\text{A}, \text{IN}}$',
-    'CSPS-CFR': r'$\\\text{CFR}_{\text{CSPS}}$',
-    'CSPS-CFR+': r'$\\\text{CFR}_{\text{CSPS}}^+$',
-    'CFPS-CFR': r'$\\\text{CFR}_{\text{CFPS}}$',
-    'CFPS-CFR+': r'$\\\text{CFR}_{\text{CFPS}}^+$',
-    'CFPS-CFR_EX+IN': r'$\\\text{CFR}_{\text{CFPS}, \text{EX} + \text{IN}}$',
-    'CFPS-CFR+_EX+IN': r'$\\\text{CFR}_{\text{CFPS}, \text{EX} + \text{IN}}^+$',
-    'TIPS-CFR': r'$\\\text{CFR}_{\text{TIPS}}$',
-    'TIPS-CFR+': r'$\\\text{CFR}_{\text{TIPS}}^+$',
-    'TIPS-CFR_EX+IN': r'$\\\text{CFR}_{\text{TIPS}, \text{EX} + \text{IN}}$',
-    'TIPS-CFR+_EX+IN': r'$\\\text{CFR}_{\text{TIPS}, \text{EX} + \text{IN}}^+$',
-    'CFR_EX+IN': r'$\\\text{CFR}_{\text{EX} + \text{IN}}$',
-    'CFR+_EX+IN': r'$\\\text{CFR}_{\text{EX} + \text{IN}}^+$',
-    'BPS-CFR': r'$\\\text{CFR}_{\text{BPS}}$',
-    'BPS-CFR+': r'$\\\text{CFR}_{\text{BPS}}^+$',
-    'BEHAV-CFR': r'$\\\text{CFR}_{\text{BEHAV}}$',
+    'CFR_IN': r'$\\\text{CF}_{\text{IN}}$',
+    'CFR+_IN': r'$\\\text{CF}^+_{\text{IN}}$',
+    'A-CFR_IN': r'$\\\text{ACT}_{\text{IN}}$',
+    'A-CFR+_IN': r'$\\\text{ACT}^+_{\text{IN}}$',
+    'CSPS-CFR': r'$\\\text{CSPS}$',
+    'CSPS-CFR+': r'$\\\text{CSPS}^+$',
+    'CFPS-CFR': r'$\\\text{CFPS}$',
+    'CFPS-CFR+': r'$\\\text{CFPS}^+$',
+    'CFPS-CFR_EX+IN': r'$\\\text{CFPS}_{\text{EX} + \text{IN}}$',
+    'CFPS-CFR+_EX+IN': r'$\\\text{CFPS}_{\text{EX} + \text{IN}}^+$',
+    'TIPS-CFR': r'$\\\text{TIPS}$',
+    'TIPS-CFR+': r'$\\\text{TIPS}^+$',
+    'TIPS-CFR_EX+IN': r'$\\\text{TIPS}_{\text{EX} + \text{IN}}$',
+    'TIPS-CFR+_EX+IN': r'$\\\text{TIPS}_{\text{EX} + \text{IN}}^+$',
+    'CFR_EX+IN': r'$\\\text{CF}_{\text{EX} + \text{IN}}$',
+    'CFR+_EX+IN': r'$\\\text{CF}_{\text{EX} + \text{IN}}^+$',
+    'BPS-CFR': r'$\\\text{BPS}$',
+    'BPS-CFR+': r'$\\\text{BPS}^+$',
+    'BEHAV-CFR': r'$\\\text{BHV}$',
     'greed_punisher': 'GP'
 }
 
@@ -52,7 +53,7 @@ _alg_order_map = {
     'A-CFR+': 7,
     'CFR_IN': 8,
     'CFR+_IN': 9,
-    'A-CFR_IN': 12,
+    'A-CFR_IN': -1,
     'A-CFR+_IN': 13,
     'CSPS-CFR': 20,
     'CSPS-CFR+': 21,
@@ -142,7 +143,7 @@ def game_label(tag, t=None):
     name = 'goofspiel'
   else:
     name = tag
-  
+
   params_string = ''
   if tag in xp.NUM_PLAYERS_MAP:
     params_string = r'N=\num{{{}}}'.format(xp.NUM_PLAYERS_MAP[tag])
@@ -177,6 +178,8 @@ def with_sorted_alg_game(df):
 
 
 # Utility adjustment
+
+
 def adjust_game_utility(game_tag, value):
   if game_tag == 'leduc':
     return value / 13.
