@@ -93,7 +93,7 @@ NUM_ITERATIONS_MAP = {
     'crewmates_3p_10r_5h_30g_1l': 200,
 }
 NUM_PLAYERS_MAP = {
-    'sheriff': 3,
+    'sheriff': 2,
     'leduc': 2,
     'goofspiel': 2,
     'goofspiel_ascending': 2,
