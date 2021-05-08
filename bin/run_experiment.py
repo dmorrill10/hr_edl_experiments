@@ -5,7 +5,7 @@ import sys
 
 from absl import app, flags
 
-import mal_cfr_data.experiment_parameters as xp
+import hr_edl_data.experiment_parameters as xp
 
 flags.DEFINE_string("exe_dir", None, "The experiment executable directory.")
 flags.mark_flag_as_required('exe_dir')
