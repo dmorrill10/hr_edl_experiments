@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.lines as mlines
 import seaborn as sns
-import efr_data.experiment_parameters as xp
+import hr_edl_data.experiment_parameters as xp
 
 # Algorithm labels
 _alg_label_map = {
