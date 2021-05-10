@@ -30,7 +30,7 @@ runs_remaining.gen.sh: bin/list_runs_remaining.sh Makefile
 	$< > $@
 
 results/efr_data.npy: $(SSV_FILES)
-	python3 bin/save_data.py -x rla -o $@
+	python3 bin/save_data.py -x efr -o $@
 
 results/cor_gap_data.npy: $(wildcard data/cor_gap.*.dat)
 	python3 bin/save_data.py -x cor_gap -o $@

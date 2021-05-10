@@ -14,7 +14,7 @@ flags.DEFINE_list(
 flags.DEFINE_string("o", None, "The name of the output numpy data file.")
 flags.mark_flag_as_required('o')
 
-EXPERIMENT_TYPES = set(['ltbr', 'rla', 'cor_gap'])
+EXPERIMENT_TYPES = set(['efr', 'cor_gap'])
 flags.DEFINE_string(
     "x", None, f"The type of experiment data file, one of {EXPERIMENT_TYPES}.")
 flags.mark_flag_as_required('x')
