@@ -1,5 +1,5 @@
-OPEN_SPIEL_PRIVATE =../open_spiel-private
-EXE_DIR :=$(OPEN_SPIEL_PRIVATE)/build/bin/ltbr
+EXPERIMENT_RUNNER_DIRECTORY =hr_edl
+EXE_DIR :=$(EXPERIMENT_RUNNER_DIRECTORY)/build.optimized/bin
 
 ALG_GROUPS :=efr
 GAMES :=sheriff tiny_bridge leduc tiny_hanabi \
@@ -21,7 +21,7 @@ results:
 	mkdir $@
 
 $(EXE):
-	cd $(OPEN_SPIEL_PRIVATE) && $(MAKE)
+	cd $(EXPERIMENT_RUNNER_DIRECTORY) && $(MAKE)
 
 data/%.gen.ssv: | data
 	python3 bin/run_experiment.py --exe_dir $(EXE_DIR) -a $* > $@
