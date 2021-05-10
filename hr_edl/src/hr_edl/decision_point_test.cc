@@ -1,8 +1,8 @@
 #include "hr_edl/decision_point.h"
 
+#include "hr_edl/test_extra.h"
 #include "open_spiel/spiel.h"
 #include "open_spiel/spiel_utils.h"
-#include "hr_edl/test_extra.h"
 
 namespace hr_edl {
 namespace {
@@ -104,7 +104,7 @@ void CachedDecisionPointWithTerminals() {
   SPIEL_CHECK_TRUE(decision_point.IsTerminal());
   SPIEL_CHECK_TRUE(decision_point.OpenSpielStatePtr());
   SPIEL_CHECK_EQ(decision_point.OpenSpielStatePtr()->HistoryString(),
-                 std::string("0 0 0 1 2 3 4 5 6 7 8 9 10 11 12"));
+                 std::string("0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12"));
 }
 
 }  // namespace
