@@ -3,7 +3,7 @@ EXE_DIR :=$(EXPERIMENT_RUNNER_DIRECTORY)/build.optimized/bin
 
 ALG_GROUPS :=efr
 GAMES :=sheriff tiny_bridge leduc tiny_hanabi \
-	goofspiel goofspiel_ascending random_goofspiel goofspiel_3p goofspiel_ascending_3p \
+	goofspiel goofspiel_ascending random_goofspiel goofspiel_3p goofspiel_ascending_3p
 DET_MODES :=fixed sim
 DET_SSV_FILES :=$(foreach alg_group,$(ALG_GROUPS),\
 	$(foreach game,$(GAMES),\
