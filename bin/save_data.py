@@ -38,6 +38,10 @@ def tournament_data_entries(file_name):
       split_line = line.split('  ')
       row_alg = split_line[0]
       for i, v in enumerate(split_line[1:]):
+        # v is "(expected_value, milliseconds)"
+        ev, milliseconds = v.split(', ')
+        ev = float(ev[1:])
+        milliseconds = float(milliseconds[:-1])
         yield {
             'game_tag': params.game_tag,
             'sampler': params.sampler,
@@ -45,8 +49,9 @@ def tournament_data_entries(file_name):
             'mode': params.mode,
             'row_alg': row_alg,
             'col_alg': col_labels[i + 1],
-            'value': float(v),
-            't': t
+            'value': ev,
+            't': t,
+            'milliseconds': milliseconds,
         }
 
 

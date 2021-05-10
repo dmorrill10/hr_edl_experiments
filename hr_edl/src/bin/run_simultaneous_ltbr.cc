@@ -136,7 +136,7 @@ void run_experiment() {
     for (size_t row_alg = 0; row_alg < alg_labels.size(); ++row_alg) {
       std::cout << alg_labels[row_alg] << "  ";
       for (size_t col_alg = 0; col_alg < alg_labels.size(); ++col_alg) {
-        std::cout << absl::StrFormat("(%g, %g) ",
+        std::cout << absl::StrFormat("(%g, %g)  ",
                                      avg_values[row_alg](col_alg, t),
                                      milliseconds[row_alg](col_alg, t));
       }

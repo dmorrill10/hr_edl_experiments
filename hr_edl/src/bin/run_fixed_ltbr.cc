@@ -146,7 +146,7 @@ void run_experiment() {
       std::cout << row_label << "  ";
       for (size_t col_alg = 0; col_alg < col_learner_profiles.size();
            ++col_alg) {
-        std::cout << absl::StrFormat("(%g, %g) ",
+        std::cout << absl::StrFormat("(%g, %g)  ",
                                      expected_values[row_alg](col_alg, t),
                                      milliseconds[row_alg](col_alg, t));
       }
