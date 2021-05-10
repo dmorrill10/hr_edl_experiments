@@ -2,36 +2,22 @@ import numpy as np
 import pandas as pd
 import matplotlib.lines as mlines
 import seaborn as sns
-import mal_cfr_data.experiment_parameters as xp
+import efr_data.experiment_parameters as xp
 
 # Algorithm labels
 _alg_label_map = {
     'CFR': r'$\\\text{CF}$',
-    'CFR+': r'$\\\text{CFR}^+$',
-    'A-CFR': r'$\\\text{ACT}$',
-    'A-CFR+': r'$\\\text{ACT}^+$',
-    'PGPI(10000/U)': r'$\\\text{PGPI}(\nicefrac{10000}{U})$',
-    'PGPI(0.1/U)': r'$\\\text{PGPI}(\nicefrac{0.1}{U})$',
+    'A-EFR': r'$\\\text{ACT}$',
     'CFR_IN': r'$\\\text{CF}_{\text{IN}}$',
-    'CFR+_IN': r'$\\\text{CF}^+_{\text{IN}}$',
-    'A-CFR_IN': r'$\\\text{ACT}_{\text{IN}}$',
-    'A-CFR+_IN': r'$\\\text{ACT}^+_{\text{IN}}$',
-    'CSPS-CFR': r'$\\\text{CSPS}$',
-    'CSPS-CFR+': r'$\\\text{CSPS}^+$',
-    'CFPS-CFR': r'$\\\text{CFPS}$',
-    'CFPS-CFR+': r'$\\\text{CFPS}^+$',
-    'CFPS-CFR_EX+IN': r'$\\\text{CFPS}_{\text{EX} + \text{IN}}$',
-    'CFPS-CFR+_EX+IN': r'$\\\text{CFPS}_{\text{EX} + \text{IN}}^+$',
-    'TIPS-CFR': r'$\\\text{TIPS}$',
-    'TIPS-CFR+': r'$\\\text{TIPS}^+$',
-    'TIPS-CFR_EX+IN': r'$\\\text{TIPS}_{\text{EX} + \text{IN}}$',
-    'TIPS-CFR+_EX+IN': r'$\\\text{TIPS}_{\text{EX} + \text{IN}}^+$',
+    'A-EFR_IN': r'$\\\text{ACT}_{\text{IN}}$',
+    'CSPS-EFR': r'$\\\text{CSPS}$',
+    'CFPS-EFR': r'$\\\text{CFPS}$',
+    'CFPS-EFR_EX+IN': r'$\\\text{CFPS}_{\text{EX} + \text{IN}}$',
+    'TIPS-EFR': r'$\\\text{TIPS}$',
+    'TIPS-EFR_EX+IN': r'$\\\text{TIPS}_{\text{EX} + \text{IN}}$',
     'CFR_EX+IN': r'$\\\text{CF}_{\text{EX} + \text{IN}}$',
-    'CFR+_EX+IN': r'$\\\text{CF}_{\text{EX} + \text{IN}}^+$',
-    'BPS-CFR': r'$\\\text{BPS}$',
-    'BPS-CFR+': r'$\\\text{BPS}^+$',
-    'BEHAV-CFR': r'$\\\text{BHV}$',
-    'greed_punisher': 'GP'
+    'BPS-EFR': r'$\\\text{BPS}$',
+    'BEHAV-EFR': r'$\\\text{BHV}$',
 }
 
 
@@ -45,34 +31,17 @@ def alg_label(tag):
 _alg_order_map = {
     'CFR': 0,
     'CFR+': 1,
-    'PI': 2,
-    'PGPI(1)': 3,
-    'PGPI(10000/U)': 4,
-    'PGPI(0.1/U)': 5,
-    'A-CFR': 6,
-    'A-CFR+': 7,
+    'A-EFR': 6,
     'CFR_IN': 8,
-    'CFR+_IN': 9,
-    'A-CFR_IN': -1,
-    'A-CFR+_IN': 13,
-    'CSPS-CFR': 20,
-    'CSPS-CFR+': 21,
-    'CFPS-CFR': 16,
-    'CFPS-CFR+': 17,
-    'CFPS-CFR_EX+IN': 18,
-    'CFPS-CFR+_EX+IN': 19,
-    'TIPS-CFR': 22,
-    'TIPS-CFR+': 23,
-    'TIPS-CFR_EX+IN': 24,
-    'TIPS-CFR+_EX+IN': 25,
+    'A-EFR_IN': -1,
+    'CSPS-EFR': 20,
+    'CFPS-EFR': 16,
+    'CFPS-EFR_EX+IN': 18,
+    'TIPS-EFR': 22,
+    'TIPS-EFR_EX+IN': 24,
     'CFR_EX+IN': 10,
-    'CFR+_EX+IN': 11,
-    'BPS-CFR': 14,
-    'BPS-CFR+': 15,
-    'BEHAV-CFR': 26,
-    'FP': 27,
-    'PI': 28,
-    'greed_punisher': 29,
+    'BPS-EFR': 14,
+    'BEHAV-EFR': 26,
     'avg': 30,
     'BR': 31,
 }
@@ -104,24 +73,6 @@ _game_tags = [
     'sheriff',
     'tiny_bridge',
     'tiny_hanabi',
-    'crewmates_3p_6r_4h_10g_1l',
-    'crewmates_3p_6r_4h_20g_1l',
-    'crewmates_3p_6r_4h_30g_1l',
-    'crewmates_3p_6r_4h_10g_2l',
-    'crewmates_3p_6r_4h_20g_2l',
-    'crewmates_3p_6r_4h_30g_2l',
-    'crewmates_3p_10r_10g_1l',
-    'crewmates_3p_10r_20g_1l',
-    'crewmates_3p_10r_30g_1l',
-    'crewmates_3p_10r_10g',
-    'crewmates_3p_10r_20g',
-    'crewmates_3p_10r_30g',
-    'crewmates_3p_10r_5h_10g_1l',
-    'crewmates_3p_10r_5h_20g_1l',
-    'crewmates_3p_10r_5h_30g_1l',
-    'crewmates_3p_10r_5h_10g',
-    'crewmates_3p_10r_5h_20g',
-    'crewmates_3p_10r_5h_30g',
 ]
 
 # Game labels
@@ -139,8 +90,6 @@ _game_label_map = {
 def game_label(tag, t=None):
   if tag in _game_label_map:
     name = _game_label_map[tag]
-  elif tag[:len('crewmates')] == 'crewmates':
-    name = 'crewmates'
   elif tag[:len('goofspiel')] == 'goofspiel':
     name = 'goofspiel'
   else:
@@ -205,9 +154,9 @@ def adjust_utilities(series_by_game):
 # Data manipulation
 
 
-def load_df(file_name='results/mal_cfr_data.npy', **kwargs):
+def load_df(file_name='results/efr_data.npy', **kwargs):
   return pd.DataFrame.from_records(
-      np.load('results/mal_cfr_data.npy', allow_pickle=True, **kwargs))
+      np.load('results/efr_data.npy', allow_pickle=True, **kwargs))
 
 
 def without_br_row(df):
@@ -257,7 +206,7 @@ def midpoint(df):
 class Data():
 
   @classmethod
-  def load(cls, file_name='results/mal_cfr_data.npy', **kwargs):
+  def load(cls, file_name='results/efr_data.npy', **kwargs):
     return cls(load_df(file_name, **kwargs))
 
   def __init__(self, data):
