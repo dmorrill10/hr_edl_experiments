@@ -30,9 +30,19 @@ enable_testing()
 include_directories(.)
 include_directories(open_spiel/abseil-cpp)
 
-set (BUILD_WITH_PYTHON OFF CACHE BOOL "" FORCE)
-mark_as_advanced(BUILD_WITH_PYTHON)
-set (ENV{BUILD_WITH_PYTHON} OFF)
+# Turn off all python dependency options before adding OpenSpiel.
+set (OPEN_SPIEL_BUILD_WITH_PYTHON OFF CACHE BOOL "" FORCE)
+mark_as_advanced(OPEN_SPIEL_BUILD_WITH_PYTHON)
+set (ENV{OPEN_SPIEL_BUILD_WITH_PYTHON} OFF)
+set (OPEN_SPIEL_ENABLE_JAX OFF CACHE BOOL "" FORCE)
+mark_as_advanced(OPEN_SPIEL_ENABLE_JAX)
+set (ENV{OPEN_SPIEL_ENABLE_JAX} OFF)
+set (OPEN_SPIEL_ENABLE_PYTORCH OFF CACHE BOOL "" FORCE)
+mark_as_advanced(OPEN_SPIEL_ENABLE_PYTORCH)
+set (ENV{OPEN_SPIEL_ENABLE_PYTORCH} OFF)
+set (OPEN_SPIEL_ENABLE_TENSORFLOW OFF CACHE BOOL "" FORCE)
+mark_as_advanced(OPEN_SPIEL_ENABLE_TENSORFLOW)
+set (ENV{OPEN_SPIEL_ENABLE_TENSORFLOW} OFF)
 add_subdirectory(open_spiel)
 
 set (OPEN_SPIEL_OBJECTS
