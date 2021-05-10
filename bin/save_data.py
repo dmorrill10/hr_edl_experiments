@@ -6,7 +6,7 @@ from os import path
 import numpy as np
 from absl import app, flags
 
-import mal_cfr_data.experiment_parameters as xp
+import hr_edl_data.experiment_parameters as xp
 
 flags.DEFINE_list(
     "i", [], "The data files to compile together into a numpy data file. "
