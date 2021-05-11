@@ -50,3 +50,5 @@ manifest.db
 *.out
 runs_remaining.gen.sh
 results/
+sbatch_config.sh
+
