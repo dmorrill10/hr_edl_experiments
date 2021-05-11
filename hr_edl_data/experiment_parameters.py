@@ -75,6 +75,7 @@ class ExperimentParameters():
     flags = [
         f'--game "{self.game()}"',
         f'--t {self.num_iterations()}',
+        f'--alg_group 1'
     ]
     exe = exe_dir + '/' + ('run_simultaneous_ltbr'
                            if self.mode == 'sim' else 'run_fixed_ltbr')

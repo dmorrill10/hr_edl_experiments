@@ -44,8 +44,8 @@ def tournament_data_entries(file_name):
         milliseconds = float(milliseconds[:-1])
         yield {
             'game_tag': params.game_tag,
-            'sampler': params.sampler,
-            'seed': params.seed,
+            'sampler': 'null',
+            'seed': None,
             'mode': params.mode,
             'row_alg': row_alg,
             'col_alg': col_labels[i + 1],
