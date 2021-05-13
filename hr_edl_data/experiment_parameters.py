@@ -71,12 +71,14 @@ class ExperimentParameters():
   def num_iterations(self):
     return NUM_ITERATIONS_MAP[self.game_tag]
 
-  def command(self, exe_dir):
+  def command(self, exe_dir, sif):
     flags = [
         f'--game "{self.game()}"',
         f'--t {self.num_iterations()}',
         f'--alg_group 1'
     ]
-    exe = exe_dir + '/' + ('run_simultaneous_ltbr'
-                           if self.mode == 'sim' else 'run_fixed_ltbr')
+    executable_name = 'run_simultaneous_ltbr' if self.mode == 'sim' else 'run_fixed_ltbr'
+    exe = exe_dir + '/' + executable_name
+    if sif is not None:
+        exe = f'singularity exec {sif} {exe} --'
     return f'time {exe} ' + ' '.join(flags)

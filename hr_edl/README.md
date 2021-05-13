@@ -29,4 +29,4 @@ apt-get install bash make clang unzip git wget singularity gdb valgrind -y
 snap install cmake --classic
 ```
 
-This is the installation procedure done in the Vagrant image (see `Vagrantfile`).
+This is the installation procedure done in the Vagrant image (see `../Vagrantfile`).
