@@ -1,10 +1,9 @@
 BootStrap: docker
-From: fedora
+From: fedora:34
 
 %files
   Makefile /code/Makefile
   src /code/src
-  scripts /code/scripts
 
 %post
   yum update -y
