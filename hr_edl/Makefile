@@ -41,7 +41,7 @@ $(OPEN_SPIEL):
 	rm .tmp -rf
 
 $(ABSEIL): $(OPEN_SPIEL)
-	-git clone -b '20200923.1' --single-branch --depth 1 \
+	-git clone -b '20200923.3' --single-branch --depth 1 \
 		https://github.com/abseil/abseil-cpp.git $@
 
 $(BRIDGE): $(OPEN_SPIEL)
