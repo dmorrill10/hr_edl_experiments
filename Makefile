@@ -20,19 +20,16 @@ data:
 results:
 	mkdir $@
 
-$(EXE):
-	cd $(EXPERIMENT_RUNNER_DIRECTORY) && $(MAKE)
-
 data/%.gen.ssv: | data
 	python3 bin/run_experiment.py --exe_dir $(EXE_DIR) -a $* > $@
 
 runs_remaining.gen.sh: bin/list_runs_remaining.sh Makefile
 	$< > $@
 
-results/efr_data.npy: $(SSV_FILES)
+results/efr_data.npy: $(SSV_FILES) | results
 	python3 bin/save_data.py -x efr -o $@
 
-results/cor_gap_data.npy: $(wildcard data/cor_gap.*.dat)
+results/cor_gap_data.npy: $(wildcard data/cor_gap.*.dat) | results
 	python3 bin/save_data.py -x cor_gap -o $@
 
 print-%:
