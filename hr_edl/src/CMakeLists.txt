@@ -11,7 +11,7 @@ if(APPLE)
   set (CMAKE_CXX_FLAGS "-w")
   set (CMAKE_CXX_FLAGS_PROFILE "${CMAKE_CXX_FLAGS_PROFILE} -O3 -DNDEBUG -lprofiler -L/usr/local/Cellar/gperftools/2.7/lib")
 else()
-  set (CMAKE_CXX_FLAGS "-Werror -Wno-deprecated")
+  set (CMAKE_CXX_FLAGS "-Werror -Wno-error=deprecated -Wno-error=deprecated-declarations -Wno-error=return-type")
   set (CMAKE_CXX_FLAGS_PROFILE "${CMAKE_CXX_FLAGS_PROFILE} -O3 -DNDEBUG -g -fno-omit-frame-pointer -MMD -MP")
 endif()
 
