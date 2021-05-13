@@ -1,5 +1,6 @@
 #include "hr_edl/decision_point.h"
 
+#include "absl/container/flat_hash_set.h"
 #include "hr_edl/containers.h"
 #include "hr_edl/samplers.h"
 
@@ -72,7 +73,7 @@ void CachedDecisionPoint::CacheOutcomes() {
   }
 }
 
-void _ForEachState(std::unordered_set<std::string>& already_observed,
+void _ForEachState(absl::flat_hash_set<std::string>& already_observed,
                    DecisionPoint& decision_point,
                    const std::function<void(const DecisionPoint&)>& f,
                    int player) {
@@ -81,7 +82,7 @@ void _ForEachState(std::unordered_set<std::string>& already_observed,
   }
   const std::string info_state = decision_point.InformationStateString();
   if (player < 0 || player == decision_point.PlayerToAct()) {
-    if (!Contains(already_observed, info_state)) {
+    if (!already_observed.contains(info_state)) {
       f(decision_point);
       already_observed.insert(std::move(info_state));
     };
@@ -99,7 +100,7 @@ void _ForEachState(std::unordered_set<std::string>& already_observed,
 void ForEachState(DecisionPoint& root,
                   const std::function<void(const DecisionPoint&)>& f,
                   int player) {
-  std::unordered_set<std::string> already_observed;
+  absl::flat_hash_set<std::string> already_observed;
   if (root.NumActions() < 2) {
     for (size_t outcome = 0; outcome < root.NumOutcomes(0); ++outcome) {
       root.Apply(0, outcome);

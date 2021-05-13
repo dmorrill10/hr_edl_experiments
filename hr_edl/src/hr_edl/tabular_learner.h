@@ -300,7 +300,7 @@ class TabularResponder : public virtual Policy {
   std::vector<double> Response(
       const open_spiel::State& state) const override final {
     const std::string info_state = state.InformationStateString();
-    if (Contains(local_info_map_, info_state)) {
+    if (local_info_map_.contains(info_state)) {
       return local_info_map_.at(info_state).Response();
     } else {
       const int n = state.LegalActions().size();

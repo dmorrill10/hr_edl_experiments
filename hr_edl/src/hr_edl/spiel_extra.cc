@@ -1,12 +1,13 @@
 #include "hr_edl/spiel_extra.h"
 
+#include "absl/container/flat_hash_set.h"
 #include "hr_edl/containers.h"
 #include "hr_edl/samplers.h"
 
 namespace hr_edl {
 
 static void _ForEachState(
-    std::unordered_set<std::string>& already_observed,
+    absl::flat_hash_set<std::string>& already_observed,
     const open_spiel::State& state,
     const std::function<void(const open_spiel::State&)>& f, int player,
     const std::function<void(const open_spiel::State&)>& at_terminals) {
@@ -24,7 +25,7 @@ static void _ForEachState(
   }
   const std::string info_state = state.InformationStateString();
   if (PlayerInSet(state.CurrentPlayer(), player)) {
-    if (!Contains(already_observed, info_state)) {
+    if (!already_observed.contains(info_state)) {
       f(state);
       already_observed.emplace(std::move(info_state));
     };
@@ -39,7 +40,7 @@ void ForEachState(
     const open_spiel::State& state,
     const std::function<void(const open_spiel::State&)>& f, int player,
     const std::function<void(const open_spiel::State&)>& at_terminals) {
-  std::unordered_set<std::string> already_observed;
+  absl::flat_hash_set<std::string> already_observed;
   _ForEachState(already_observed, state, f, player, at_terminals);
 }
 
