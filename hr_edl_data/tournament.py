@@ -154,9 +154,9 @@ def adjust_utilities(series_by_game):
 # Data manipulation
 
 
-def load_df(file_name='results/efr_data.npy', **kwargs):
+def load_df(file_name='../results/efr_data.npy', **kwargs):
   return pd.DataFrame.from_records(
-      np.load('results/efr_data.npy', allow_pickle=True, **kwargs))
+      np.load('../results/efr_data.npy', allow_pickle=True, **kwargs))
 
 
 def without_br_row(df):
@@ -206,7 +206,7 @@ def midpoint(df):
 class Data():
 
   @classmethod
-  def load(cls, file_name='results/efr_data.npy', **kwargs):
+  def load(cls, file_name='../results/efr_data.npy', **kwargs):
     return cls(load_df(file_name, **kwargs))
 
   def __init__(self, data):

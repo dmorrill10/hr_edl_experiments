@@ -5,27 +5,27 @@ __pycache__/
 .eggs/
 *.egg-info/
 
- # C extensions
+# C extensions
 *.so
 
- # Jupyter Notebook
+# Jupyter Notebook
 .ipynb_checkpoints
 
- # virtualenv
+# virtualenv
 .venv
 venv/
 ENV/
 env/
 
- # OSX specific
+# OSX specific
 .DS_Store
 
- # Build products
+# Build products
 build/
 build.*/
 build
 
- # External modules
+# External modules
 open_spiel/
 open_spiel/abseil-cpp/
 open_spiel/games/bridge/double_dummy_solver/
@@ -49,6 +49,5 @@ saved_results/
 manifest.db
 *.out
 runs_remaining.gen.sh
-results/
 sbatch_config.sh
 

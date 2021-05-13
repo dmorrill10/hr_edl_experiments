@@ -1,0 +1,5 @@
+# Thanks to https://www.oncrashreboot.com/how-to-add-an-empty-directory-to-a-git-repository for this.
+# Disregard this entire folder
+*
+# Except this .gitignore file
+!.gitignore
