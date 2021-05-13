@@ -1,5 +1,5 @@
-EXPERIMENT_RUNNER_DIRECTORY =hr_edl
-EXE_DIR :=$(EXPERIMENT_RUNNER_DIRECTORY)/build.optimized/bin
+HR_EDL_DIR =hr_edl
+EXE_DIR :=$(HR_EDL_DIR)/build.optimized/bin
 SIF :=
 
 ALG_GROUPS :=efr
