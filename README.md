@@ -28,3 +28,5 @@ to create a Singularity image. Then you can run
 ```singularity exec hr_edl.sif /code/build.optimized/bin/<command> [-- command flags]```
 
 to run an `hr_edl` executable inside the container.
+`bin/run_experiment.py` has a `--sif` option so you can specify a container image in which the experiment should be run.
+You can set the variable `SIF` in `Makefile` (either in the file or in the command like `make SIF=my_image.sif`) to run all experiments in a given container image.

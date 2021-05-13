@@ -79,6 +79,6 @@ class ExperimentParameters():
     ]
     executable_name = 'run_simultaneous_ltbr' if self.mode == 'sim' else 'run_fixed_ltbr'
     exe = exe_dir + '/' + executable_name
-    if sif is not None:
+    if sif:
         exe = f'singularity exec {sif} {exe} --'
     return f'time {exe} ' + ' '.join(flags)

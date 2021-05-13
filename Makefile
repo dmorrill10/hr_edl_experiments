@@ -1,5 +1,6 @@
 EXPERIMENT_RUNNER_DIRECTORY =hr_edl
 EXE_DIR :=$(EXPERIMENT_RUNNER_DIRECTORY)/build.optimized/bin
+SIF :=
 
 ALG_GROUPS :=efr
 GAMES :=sheriff tiny_bridge leduc tiny_hanabi \
@@ -21,7 +22,7 @@ results:
 	mkdir $@
 
 data/%.gen.ssv: | data
-	python3 bin/run_experiment.py --exe_dir $(EXE_DIR) -a $* > $@
+	python3 bin/run_experiment.py --exe_dir $(EXE_DIR) -a $* --sif $(SIF) > $@
 
 runs_remaining.gen.sh: bin/list_runs_remaining.sh Makefile
 	$< > $@
