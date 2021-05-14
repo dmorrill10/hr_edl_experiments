@@ -1,6 +1,7 @@
 HR_EDL_DIR =hr_edl
 EXE_DIR :=$(HR_EDL_DIR)/build.optimized/bin
 SIF :=
+PREFIX :=.
 
 ALG_GROUPS :=efr
 GAMES :=sheriff tiny_bridge leduc tiny_hanabi \
@@ -22,16 +23,16 @@ results:
 	mkdir $@
 
 data/%.gen.ssv: | data
-	python3 bin/run_experiment.py --exe_dir $(EXE_DIR) -a $* --sif $(SIF) > $@
+	python3 $(PREFIX)/bin/run_experiment.py --exe_dir $(EXE_DIR) -a $* --sif $(SIF) > $@
 
 runs_remaining.gen.sh: bin/list_runs_remaining.sh Makefile
 	$< > $@
 
 results/efr_data.npy: $(SSV_FILES) | results
-	python3 bin/save_data.py -x efr -o $@
+	python3 $(PREFIX)/bin/save_data.py -x efr -o $@
 
 results/cor_gap_data.npy: $(wildcard data/cor_gap.*.dat) | results
-	python3 bin/save_data.py -x cor_gap -o $@
+	python3 $(PREFIX)/bin/save_data.py -x cor_gap -o $@
 
 print-%:
 	@echo $* = $($*)
