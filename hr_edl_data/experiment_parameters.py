@@ -23,17 +23,17 @@ GAME_MAP = {
         'tiny_hanabi',
 }
 NUM_ITERATIONS_MAP = {
-    'sheriff': 500,
-    'leduc': 500,
-    'goofspiel': 500,
-    'random_goofspiel': 500,
-    'goofspiel_3p': 500,
-    'goofspiel_ascending': 500,
-    'goofspiel_ascending_3p': 500,
-    'tiny_bridge': 500,
-    'kuhn_3p': 500,
-    'kuhn_4p': 500,
-    'tiny_hanabi': 500,
+    'sheriff': 1000,
+    'leduc': 1000,
+    'goofspiel': 1000,
+    'random_goofspiel': 1000,
+    'goofspiel_3p': 1000,
+    'goofspiel_ascending': 1000,
+    'goofspiel_ascending_3p': 1000,
+    'tiny_bridge': 1000,
+    'kuhn_3p': 1000,
+    'kuhn_4p': 1000,
+    'tiny_hanabi': 1000,
 }
 NUM_PLAYERS_MAP = {
     'sheriff': 2,
@@ -80,5 +80,5 @@ class ExperimentParameters():
     executable_name = 'run_simultaneous_ltbr' if self.mode == 'sim' else 'run_fixed_ltbr'
     exe = exe_dir + '/' + executable_name
     if sif:
-        exe = f'singularity exec {sif} {exe} --'
+        exe = f'singularity exec {sif} {exe}'
     return f'time {exe} ' + ' '.join(flags)
