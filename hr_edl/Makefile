@@ -36,7 +36,8 @@ test: | build.optimized/Makefile
 
 $(OPEN_SPIEL):
 	-git clone -b 'master' --single-branch --depth 1 \
-		https://github.com/dmorrill10/open_spiel.git .tmp
+		https://github.com/deepmind/open_spiel.git .tmp
+	cd .tmp/open_spiel && git checkout 53eeb6127578f91e88a6c0451983d10e3509446d && cd ../..
 	mv .tmp/open_spiel $@
 	rm .tmp -rf
 
@@ -50,7 +51,10 @@ $(BRIDGE): $(OPEN_SPIEL)
 
 $(EIGEN):
 	-git clone -b 'master' --single-branch --depth 1 \
-		https://gitlab.com/libeigen/eigen.git $@
+		https://gitlab.com/libeigen/eigen.git .tmp
+	cd .tmp/eigen && git checkout 39ec31c0adbdde6b8cda36b3415e9cc2af20dab6 && cd ../..
+	mv .tmp/eigen $@
+	rm .tmp -rf
 
 # Meta Rules
 #===========
