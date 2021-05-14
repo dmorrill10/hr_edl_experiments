@@ -23,7 +23,7 @@ results:
 	mkdir $@
 
 data/%.gen.ssv: | data
-	python3 $(PREFIX)/bin/run_experiment.py --exe_dir $(EXE_DIR) -a $* --sif $(SIF) > $@
+	python3 $(PREFIX)/bin/run_experiment.py --exe_dir $(EXE_DIR) -a $* --sif "$(SIF)" > $@
 
 runs_remaining.gen.sh: bin/list_runs_remaining.sh Makefile
 	$< > $@
