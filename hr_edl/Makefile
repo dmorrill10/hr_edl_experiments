@@ -35,9 +35,12 @@ test: | build.optimized/Makefile
 	$(MAKE) test.optimized
 
 $(OPEN_SPIEL):
-	-git clone -b 'master' --single-branch --depth 1 \
-		https://github.com/deepmind/open_spiel.git .tmp
-	cd .tmp/open_spiel && git checkout 53eeb6127578f91e88a6c0451983d10e3509446d && cd ../..
+	mkdir .tmp
+	cd .tmp && \
+		git init && \
+		git remote add origin https://github.com/deepmind/open_spiel.git && \
+		git fetch --depth 1 origin 53eeb6127578f91e88a6c0451983d10e3509446d && \
+		git checkout FETCH_HEAD
 	mv .tmp/open_spiel $@
 	rm .tmp -rf
 
@@ -50,10 +53,13 @@ $(BRIDGE): $(OPEN_SPIEL)
 		https://github.com/jblespiau/dds.git $@
 
 $(EIGEN):
-	-git clone -b 'master' --single-branch --depth 1 \
-		https://gitlab.com/libeigen/eigen.git .tmp
-	cd .tmp/eigen && git checkout 39ec31c0adbdde6b8cda36b3415e9cc2af20dab6 && cd ../..
-	mv .tmp/eigen $@
+	mkdir .tmp
+	cd .tmp && \
+		git init && \
+		git remote add origin https://gitlab.com/libeigen/eigen.git && \
+		git fetch --depth 1 origin 39ec31c0adbdde6b8cda36b3415e9cc2af20dab6 && \
+		git checkout FETCH_HEAD
+	mv .tmp $@
 	rm .tmp -rf
 
 # Meta Rules
