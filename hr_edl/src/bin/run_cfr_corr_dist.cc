@@ -17,8 +17,6 @@
 #include "absl/strings/str_format.h"
 #include "absl/strings/str_join.h"
 #include "bin/ltbr.h"
-//#include "eigen/Eigen/Dense"
-#include "eigen/Dense"
 #include "hr_edl/adaptive_profile.h"
 #include "hr_edl/best_response.h"
 #include "hr_edl/decision_point.h"
