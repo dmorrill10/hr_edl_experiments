@@ -89,7 +89,7 @@ void run_experiment() {
 
 int main(int argc, char** argv) {
   absl::SetProgramUsageMessage(
-      "Shows mediated (corr) distribution convergence.");
+      "Shows distance of CFR average joint to various correlated eq. classes.");
   absl::ParseCommandLine(argc, argv);
   run_experiment();
 }
