@@ -7,6 +7,9 @@ target_link_libraries(run_simultaneous_ltbr absl::flags absl::strings absl::flag
 add_executable(run_corr_dist run_corr_dist.cc ${OPEN_SPIEL_OBJECTS})
 target_link_libraries(run_corr_dist absl::flags absl::strings absl::flags_parse ${ABSL})
 
+add_executable(run_cfr_corr_dist run_cfr_corr_dist.cc ${OPEN_SPIEL_OBJECTS})
+target_link_libraries(run_cfr_corr_dist absl::flags absl::strings absl::flags_parse ${ABSL})
+
 add_executable(show_max_and_min_utilities show_max_and_min_utilities.cc ${OPEN_SPIEL_OBJECTS})
 target_link_libraries(show_max_and_min_utilities absl::flags absl::strings absl::flags_parse ${ABSL})
 
